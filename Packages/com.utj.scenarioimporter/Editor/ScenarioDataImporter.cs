@@ -45,19 +45,12 @@ namespace Unity.ScenarioImporter
         }
         
         /// <summary>
-        /// Retrieves the body of the scenario, excluding any comments.
+        /// Retrieves the body of the scenario
         /// </summary>
         /// <param name="path">File Path</param>
         /// <returns>scenario text.</returns>
         private static string LoadScenario(string path)
         {
-            var builder = new StringBuilder();
-
-            foreach (var str in File.ReadAllLines(path))
-            {
-
-            }
-
             return File.ReadAllText(path);
         }
     }
