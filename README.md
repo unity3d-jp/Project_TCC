@@ -1,5 +1,5 @@
 # Project_TCC v.1.0.0
-TCC stands for **Tiny Character Controller**. TCC is the best way to make your own game. 
+TCC stands for **Tiny Character Controller**. TCC provides a comprehensive solution for creating your own game.
 
 This repository contains all packages and examples for TCC projects.
 
@@ -12,7 +12,7 @@ This project and repository "Project_TCC" is provided as-is, without any mainten
 
 Therefore, we are unable to monitor bug reports, accept feature requests, or review pull requests for this package.
 
-However, we understand that users may want to continue using and improving Project_TCC. In that case, we recommend that you fork the repository. This will allow you to make changes and enhancements as you see fit.
+However, we recognize that some users may wish to continue utilizing and enhancing Project_TCC. In that case, we recommend that you fork the repository. This will allow you to make changes and enhancements as you see fit.
 
 ## Release Information
 * 2024/02/09 : Project_TCC v.1.0.0 : First Release.
@@ -27,10 +27,10 @@ https://unity-chan.com/contents/guideline/
 https://unity-chan.com/contents/guideline_en/
 
 * Some sound effects data that contains in this project is made by GameSynth.
-The official GameSynth' URL is below:
+The official GameSynth URL is below:
 http://tsugi-studio.com/web/jp/products-gamesynth.html
 
-* This project contains the font "source-han-sans". This font is licensed by Adobe and SIL OPEN FONT LICENSE v.1.1
+* This project contains the font 'Source Han Sans' font. This font is licensed by Adobe and SIL OPEN FONT LICENSE v.1.1
 https://github.com/adobe-fonts/source-han-sans?tab=License-1-ov-file#License-1-ov-file
 
 
@@ -51,7 +51,7 @@ https://github.com/adobe-fonts/source-han-sans?tab=License-1-ov-file#License-1-o
 
 TCCには、キャラクターを制御するための4つの基本的なコンポーネントがあります。
 
-1. **Brain**bo
+1. **Brain**
    - キャラクターの最終的な座標を更新するコンポーネントです。
    - Check、Effect、Controlの結果を集約し、Transformに書き込みます。
    - 移動・ベクトル計算・センサー処理を集中管理します。
@@ -82,9 +82,9 @@ TCCには、キャラクターを制御するための4つの基本的なコン�
 
 ## Project_TCC に含まれる、様々な機能コンポーネント群
 
-Project_TCCに含まれる主要なコンポーネント群について、その概要と代表的なコンポーネント名および機能を以下にまとめます。いずれもがゲーム制作に便利なコンポーネントとなっています。
+Project_TCCに含まれる主要なコンポーネント群について、その概要と主なコンポーネント名および機能を以下にまとめます。いずれもがゲーム制作に便利なコンポーネントとなっています。
 
-なお全てのRuntimeコンポーネントのリストは以下にあります。【[日本語](./Documentations/Componentlist_ja.md)】【[English](./Documentations/Componentlist_en.md)】
+なお全てのRuntimeコンポーネントのリストは、**【プロジェクト内のドキュメントセクション（[日本語](./Documentations/Componentlist_ja.md) / [English](./Documentations/Componentlist_en.md)）】** にあります。
 
 
 ---
