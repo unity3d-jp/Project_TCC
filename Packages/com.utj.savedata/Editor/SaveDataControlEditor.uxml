@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="root" style="flex-grow: 1;">
+        <ui:TextField label="File Name" placeholder-text="filler text" binding-path="_fileName" max-length="32" hide-mobile-input="false" emoji-fallback-support="false" />
+        <ui:Foldout text="overwrite settings" value="false" view-data-key="SaveDataControlEditor.SettingsFoldout">
+            <uie:PropertyField name="SaveLoadManager" binding-path="SaveLoadManager" />
+            <uie:PropertyField name="FileManager" binding-path="FileManager" />
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bae8b9f1bd244b3a27e92af4b23b2a, type: 3}
+  m_Name: ProjectSettings
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"dictionary":{"assemblyOptions":{"$content":["mscorlib","Assembly-CSharp-firstpass","Assembly-CSharp","UnityEngine","UnityEngine.CoreModule","UnityEngine.PhysicsModule","UnityEngine.TerrainPhysicsModule","UnityEngine.AudioModule","UnityEngine.AnimationModule","UnityEngine.DirectorModule","UnityEngine.Timeline","UnityEngine.ParticleSystemModule","UnityEngine.AIModule","UnityEngine.UI","UnityEngine.UIModule","Unity.VisualScripting.Core","Unity.VisualScripting.Flow","Unity.VisualScripting.State","Unitychan.Components","Bolt.Addons.Community.Runtime","Unity.InputSystem","Cinemachine","Unity.Animation.Rigging","Unity.TextMeshPro"],"$type":"System.Collections.Generic.List`1[[Unity.VisualScripting.LooseAssemblyName,
+      Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeOptions":{"$content":["System.Object","System.Boolean","System.Int32","System.Single","System.String","UnityEngine.Vector2","UnityEngine.Vector3","UnityEngine.Vector4","UnityEngine.Quaternion","UnityEngine.Matrix4x4","UnityEngine.Rect","UnityEngine.Bounds","UnityEngine.Color","UnityEngine.AnimationCurve","UnityEngine.LayerMask","UnityEngine.Ray","UnityEngine.RaycastHit","UnityEngine.ContactPoint","UnityEngine.SceneManagement.Scene","UnityEngine.Application","UnityEngine.Resources","UnityEngine.Mathf","UnityEngine.Debug","UnityEngine.Time","UnityEngine.Random","UnityEngine.Physics","UnityEngine.SceneManagement.SceneManager","UnityEngine.GUI","UnityEngine.AI.NavMesh","UnityEngine.AnimatorStateInfo","System.Collections.IList","System.Collections.IDictionary","Unity.VisualScripting.AotList","Unity.VisualScripting.AotDictionary","System.Exception","UnityEngine.MaterialPropertyBlock","UnityEngine.Gizmos","TMPro.TextMeshProUGUI","UnityEngine.Cursor"],"$type":"System.Collections.Generic.List`1[[System.Type,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"aotSafeMode":{"$content":true,"$type":"System.Boolean"},"favoriteMembers":{"$content":[],"$type":"System.Collections.Generic.HashSet`1[[Unity.VisualScripting.Member,
+      Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"projectSetupCompleted":{"$content":false,"$type":"System.Boolean"},"savedVersion":{"major":1,"minor":5,"patch":1,"label":null,"increment":0,"$type":"Unity.VisualScripting.SemanticVersion"}}}'
+    _objectReferences: []

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="root" style="width: 450px; height: auto; max-height: 300px;">
+        <ui:ListView focusable="false" virtualization-method="DynamicHeight" style="min-height: 50px;" />
+    </ui:VisualElement>
+</ui:UXML>

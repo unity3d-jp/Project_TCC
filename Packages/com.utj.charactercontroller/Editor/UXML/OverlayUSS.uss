@@ -1,0 +1,20 @@
+.Header {
+    font-size: 15px;
+    -unity-font-style: bold;
+    border-top-width: 4px;
+}
+
+.Element {
+    padding-left: 8px;
+}
+
+.label {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}

@@ -1,0 +1,561 @@
+{ "frames": {
+   "Adwolf #Front_Idle 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Front_Idle 1.aseprite": {
+    "frame": { "x": 16, "y": 0, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Front_Idle 2.aseprite": {
+    "frame": { "x": 32, "y": 0, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Front_Idle 3.aseprite": {
+    "frame": { "x": 48, "y": 0, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontR_Idle 0.aseprite": {
+    "frame": { "x": 64, "y": 0, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontR_Idle 1.aseprite": {
+    "frame": { "x": 80, "y": 0, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontR_Idle 2.aseprite": {
+    "frame": { "x": 96, "y": 0, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontR_Idle 3.aseprite": {
+    "frame": { "x": 112, "y": 0, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Right_Idle 0.aseprite": {
+    "frame": { "x": 0, "y": 16, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Right_Idle 1.aseprite": {
+    "frame": { "x": 16, "y": 16, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Right_Idle 2.aseprite": {
+    "frame": { "x": 32, "y": 16, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Right_Idle 3.aseprite": {
+    "frame": { "x": 48, "y": 16, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackR_Idle 0.aseprite": {
+    "frame": { "x": 64, "y": 16, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackR_Idle 1.aseprite": {
+    "frame": { "x": 80, "y": 16, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackR_Idle 2.aseprite": {
+    "frame": { "x": 96, "y": 16, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackR_Idle 3.aseprite": {
+    "frame": { "x": 112, "y": 16, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Back_Idle 0.aseprite": {
+    "frame": { "x": 0, "y": 32, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Back_Idle 1.aseprite": {
+    "frame": { "x": 16, "y": 32, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Back_Idle 2.aseprite": {
+    "frame": { "x": 32, "y": 32, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Back_Idle 3.aseprite": {
+    "frame": { "x": 48, "y": 32, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackL_Idle 0.aseprite": {
+    "frame": { "x": 64, "y": 32, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackL_Idle 1.aseprite": {
+    "frame": { "x": 80, "y": 32, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackL_Idle 2.aseprite": {
+    "frame": { "x": 96, "y": 32, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackL_Idle 3.aseprite": {
+    "frame": { "x": 112, "y": 32, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Left_Idle 0.aseprite": {
+    "frame": { "x": 0, "y": 48, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Left_Idle 1.aseprite": {
+    "frame": { "x": 16, "y": 48, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Left_Idle 2.aseprite": {
+    "frame": { "x": 32, "y": 48, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Left_Idle 3.aseprite": {
+    "frame": { "x": 48, "y": 48, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontL_Idle 0.aseprite": {
+    "frame": { "x": 64, "y": 48, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontL_Idle 1.aseprite": {
+    "frame": { "x": 80, "y": 48, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontL_Idle 2.aseprite": {
+    "frame": { "x": 96, "y": 48, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontL_Idle 3.aseprite": {
+    "frame": { "x": 112, "y": 48, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Front_Run 0.aseprite": {
+    "frame": { "x": 0, "y": 64, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Front_Run 1.aseprite": {
+    "frame": { "x": 16, "y": 64, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Front_Run 2.aseprite": {
+    "frame": { "x": 32, "y": 64, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Front_Run 3.aseprite": {
+    "frame": { "x": 48, "y": 64, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontR_Run 0.aseprite": {
+    "frame": { "x": 64, "y": 64, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontR_Run 1.aseprite": {
+    "frame": { "x": 80, "y": 64, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontR_Run 2.aseprite": {
+    "frame": { "x": 96, "y": 64, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontR_Run 3.aseprite": {
+    "frame": { "x": 112, "y": 64, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Right_Run 0.aseprite": {
+    "frame": { "x": 0, "y": 80, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Right_Run 1.aseprite": {
+    "frame": { "x": 16, "y": 80, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Right_Run 2.aseprite": {
+    "frame": { "x": 32, "y": 80, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Right_Run 3.aseprite": {
+    "frame": { "x": 48, "y": 80, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackR_Run 0.aseprite": {
+    "frame": { "x": 64, "y": 80, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackR_Run 1.aseprite": {
+    "frame": { "x": 80, "y": 80, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackR_Run 2.aseprite": {
+    "frame": { "x": 96, "y": 80, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackR_Run 3.aseprite": {
+    "frame": { "x": 112, "y": 80, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Back_Run 0.aseprite": {
+    "frame": { "x": 0, "y": 96, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Back_Run 1.aseprite": {
+    "frame": { "x": 16, "y": 96, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Back_Run 2.aseprite": {
+    "frame": { "x": 32, "y": 96, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Back_Run 3.aseprite": {
+    "frame": { "x": 48, "y": 96, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackL_Run 0.aseprite": {
+    "frame": { "x": 64, "y": 96, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackL_Run 1.aseprite": {
+    "frame": { "x": 80, "y": 96, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackL_Run 2.aseprite": {
+    "frame": { "x": 96, "y": 96, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #BackL_Run 3.aseprite": {
+    "frame": { "x": 112, "y": 96, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Left_Run 0.aseprite": {
+    "frame": { "x": 0, "y": 112, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Left_Run 1.aseprite": {
+    "frame": { "x": 16, "y": 112, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Left_Run 2.aseprite": {
+    "frame": { "x": 32, "y": 112, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #Left_Run 3.aseprite": {
+    "frame": { "x": 48, "y": 112, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontL_Run 0.aseprite": {
+    "frame": { "x": 64, "y": 112, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontL_Run 1.aseprite": {
+    "frame": { "x": 80, "y": 112, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontL_Run 2.aseprite": {
+    "frame": { "x": 96, "y": 112, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   },
+   "Adwolf #FrontL_Run 3.aseprite": {
+    "frame": { "x": 112, "y": 112, "w": 16, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 16, "h": 16 },
+    "sourceSize": { "w": 16, "h": 16 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.2.40-x64",
+  "image": "Adwolf.png",
+  "format": "I8",
+  "size": { "w": 128, "h": 128 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Front_Idle", "from": 0, "to": 3, "direction": "forward" },
+   { "name": "FrontR_Idle", "from": 4, "to": 7, "direction": "forward" },
+   { "name": "Right_Idle", "from": 8, "to": 11, "direction": "forward" },
+   { "name": "BackR_Idle", "from": 12, "to": 15, "direction": "forward" },
+   { "name": "Back_Idle", "from": 16, "to": 19, "direction": "forward" },
+   { "name": "BackL_Idle", "from": 20, "to": 23, "direction": "forward" },
+   { "name": "Left_Idle", "from": 24, "to": 27, "direction": "forward" },
+   { "name": "FrontL_Idle", "from": 28, "to": 31, "direction": "forward" },
+   { "name": "Front_Run", "from": 32, "to": 35, "direction": "forward" },
+   { "name": "FrontR_Run", "from": 36, "to": 39, "direction": "forward" },
+   { "name": "Right_Run", "from": 40, "to": 43, "direction": "forward" },
+   { "name": "BackR_Run", "from": 44, "to": 47, "direction": "forward" },
+   { "name": "Back_Run", "from": 48, "to": 51, "direction": "forward" },
+   { "name": "BackL_Run", "from": 52, "to": 55, "direction": "forward" },
+   { "name": "Left_Run", "from": 56, "to": 59, "direction": "forward" },
+   { "name": "FrontL_Run", "from": 60, "to": 63, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Front", "opacity": 255, "blendMode": "normal" },
+   { "name": "Front Copy", "opacity": 255, "blendMode": "normal" },
+   { "name": "Right", "opacity": 255, "blendMode": "normal" },
+   { "name": "Back", "opacity": 255, "blendMode": "normal" },
+   { "name": "Back Copy", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 3", "opacity": 255, "blendMode": "normal" },
+   { "name": "Left", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 4", "opacity": 255, "blendMode": "normal" },
+   { "name": "Front Run", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 5", "opacity": 255, "blendMode": "normal" },
+   { "name": "Right_Run", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 6", "opacity": 255, "blendMode": "normal" },
+   { "name": "Back Run", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 7", "opacity": 255, "blendMode": "normal" },
+   { "name": "Left_Run", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 2", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

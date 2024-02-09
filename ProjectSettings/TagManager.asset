@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SBS/Collider/Bullet
+  - SBS/Target/Enemy
+  - SBS/Collider/Sword
+  - SBS/Collider/ImpactPoint
+  - SBS/Controller/Player
+  - SBS/UI/Fader
+  - SBS/Manager/Level
+  - SBS/Manager/Player
+  - SBS/Manager/Music
+  - SBS/Manager/UI
+  - SBS/Function/Start
+  - Block
+  - Dialog/MessageBox
+  - Dialog/OptionMenu
+  - Dialog/Root
+  - SBS/Manager/Daytime
+  - SBS/Event/Action
+  - SBS/Camera/Virtual
+  - SBS/Camera/Main
+  - SBS/SceneLoader/Town
+  - Enemy
+  - Dialog/Popup
+  - SBS/Dialogue/NPC
+  - SBS/Dialogue/Hint
+  - SBS/Data/Game
+  - SBS/Data/Option
+  - SBS/Data/Inventory
+  - SBS/Manager/SE
+  - SBS/Manager/Wallet
+  - Target
+  - SBS/Manager/Camera
+  - SBS/Collider/Container
+  - SBS/Collider/Environment
+  - SBS/UI/Flash
+  - SBS/UI/Health
+  - SBS/UI/Screen
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - CameraCollider
+  - System
+  - 
+  - 
+  - Environment
+  - MovingPlatform
+  - IgnoreCollision
+  - Minimap
+  - Enemy
+  - EnemyAttackTrigger
+  - PlayerHitCollider
+  - PlayerMeleeCollider
+  - CursorPoint
+  - InvisibleWall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI_Interaction
+    uniqueID: 3604645301
+    locked: 0

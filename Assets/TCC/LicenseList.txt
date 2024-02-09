@@ -1,0 +1,28 @@
+----------------------
+List of Licenses
+----------------------
+
+★ Tiny Character Controller
+
+Tiny Character ControllerはUnity Companion Licenseで提供されています。
+Unity Companion Licenseについては以下のページを確認してください。
+
+https://unity.com/ja/legal/licenses/unity-companion-license
+
+----------------------
+
+★ Unity-Chan!
+
+UnityChanCRS,UnityChanSTD,UnityChanTPK及びSoundsフォルダ以下の音声データはUnity-Chan License 2.01で提供されています。
+Unity-Chan License 2.01については以下のページを確認してください。
+
+https://unity-chan.com/contents/guideline/
+
+----------------------
+
+★ neotenyDesign
+
+上記を除く全てのBGM及びSEデータはneotenyDesignによりCC BY-NDで提供されています。
+(c)2023 neotenyDesign
+
+一部のSEはGameSynthを使って作成されています。

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.unity.character_controller/Editor/UXML/OverlayUSS.uss?fileID=7433441132597879392&amp;guid=00b80dcd15dd84ec29df4c3b4004ad48&amp;type=3#OverlayUSS" />
+    <ui:VisualElement style="flex-grow: 1; width: 200px;">
+        <ui:Foldout text="Move" value="true" view-data-key="tcc-priority-move">
+            <ui:ScrollView name="move-element" style="min-height: auto; max-height: 100px;" />
+        </ui:Foldout>
+        <ui:Foldout text="Turn" value="true" view-data-key="tcc-priority-turn">
+            <ui:ScrollView name="turn-element" style="max-height: 100px;" />
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

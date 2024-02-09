@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/scene_loader/UXML/SceneLoader.uss?fileID=7433441132597879392&amp;guid=95e15c0bd418a4d33b129255e3cfd7be&amp;type=3#SceneLoader" />
+    <ui:VisualElement style="background-color: rgba(0, 0, 0, 0); padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px;">
+        <uie:PropertyField name="SceneAsset" binding-path="_scene" label="Scene Asset (addressable)" style="background-color: rgb(255, 0, 0);" />
+        <ui:Label tabindex="-1" text="Runtime Settings" display-tooltip-when-elided="true" style="font-size: 15px; -unity-font-style: bold; margin-top: 15px;" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: space-between; margin-right: 5px;">
+            <ui:Label tabindex="-1" text="Set Active Scene On Load" display-tooltip-when-elided="true" />
+            <ui:Toggle binding-path="_isActive" value="false" />
+        </ui:VisualElement>
+        <ui:SliderInt picking-mode="Ignore" label="Priority" value="100" high-value="100" binding-path="_priority" show-input-field="true" />
+        <ui:VisualElement name="callback_header" style="flex-grow: 1; margin-top: 17px;" />
+        <uie:PropertyField name="OnloadedEvent" binding-path="OnLoaded" />
+        <uie:PropertyField name="OnUnloadedEvent" binding-path="OnUnloaded" />
+    </ui:VisualElement>
+    <ui:VisualElement style="border-left-color: rgb(236, 226, 226); border-right-color: rgb(236, 226, 226); border-top-color: rgb(236, 226, 226); border-bottom-color: rgb(236, 226, 226); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; flex-direction: column; border-top-left-radius: 4px; border-bottom-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; padding-left: 4px; padding-right: 4px; padding-top: 4px; padding-bottom: 4px; margin-left: 4px; margin-right: 4px; margin-top: 4px; margin-bottom: 4px;">
+        <ui:Label tabindex="-1" text="Editor Settings" display-tooltip-when-elided="true" style="-unity-font-style: bold; font-size: 15px;" />
+        <ui:VisualElement style="flex-direction: row;">
+            <ui:Button text="Open" display-tooltip-when-elided="true" name="EditButton" class="load-button" />
+            <ui:Button text="Close" display-tooltip-when-elided="true" name="CloseButton" class="load-button" />
+        </ui:VisualElement>
+        <uie:EnumField label="Scene Open Behavior" value="Center" name="LoadState" binding-path="state" />
+        <ui:Button text="Show Scene Hierarchy" display-tooltip-when-elided="true" name="ShowExplorer" style="margin-top: 10px; margin-bottom: 5px;" />
+    </ui:VisualElement>
+</ui:UXML>

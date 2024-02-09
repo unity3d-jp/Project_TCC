@@ -1,0 +1,7 @@
+{
+  "name": "com.unity.gameobject.folder",
+  "displayName": "Game Object Folder",
+  "version": "0.0.0",
+  "unity": "2019.4",
+  "description": "This package is designed to treat GameObjects like folders. \nGameObjects generated as folders will be removed during build, \nwhile GameObjects placed under a folder will be positioned at the root of the scene."
+}

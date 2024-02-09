@@ -1,0 +1,12 @@
+{
+  "name": "com.unity.tiny.character.controller",
+  "displayName": "Tiny Character Controller",
+  "version": "0.7.0",
+  "unity": "2023.3",
+  "dependencies": {
+    "com.unity.burst": "1.8.10",
+    "com.unity.visualscripting": "1.9.1",
+    "com.unity.collections": "1.2.4"
+  },
+  "description": "This package is a toolkit designed to provide flexible and powerful support for character control in games. \nIt consists of four main components: coordinate updates, movement through user input, movement triggered by external factors,\n and sensors for determining movement. It primarily assists in creating character control using VisualScripting."
+}

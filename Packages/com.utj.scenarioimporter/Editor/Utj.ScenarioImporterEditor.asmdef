@@ -1,0 +1,18 @@
+{
+    "name": "Utj.ScenarioImporterEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c87f5f04a4de74f79bdf8cf03d7090c0"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

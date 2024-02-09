@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Label tabindex="-1" text="Prefab Settings" display-tooltip-when-elided="true" style="-unity-font-style: bold; margin-top: 8px;" />
+    <uie:PropertyField binding-path="_prefab" label="Prefab" name="prefab" />
+    <uie:PropertyField binding-path="_isActiveOnGet" label="IsActiveOnGet" name="isActiveOnGet" />
+    <ui:Label tabindex="-1" text="Spawn Settings" display-tooltip-when-elided="true" style="-unity-font-style: bold; margin-top: 8px;" />
+    <uie:PropertyField binding-path="_parent" label="Parent" name="parent" />
+    <uie:PropertyField binding-path="_prewarmCount" label="PrewarmCount" name="prewarmCount" />
+    <uie:PropertyField name="hideSpawnObject" binding-path="_hideSpawnObject" label="Hide Spawn Object" />
+    <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="ErrorMessage" style="background-color: rgba(238, 26, 26, 0.89); color: rgb(231, 228, 228); border-left-color: rgb(255, 251, 251); border-right-color: rgb(255, 251, 251); border-top-color: rgb(255, 251, 251); border-bottom-color: rgb(255, 251, 251); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; padding-left: 8px; padding-right: 8px; display: flex; padding-top: 8px; padding-bottom: 8px; -unity-font-style: bold; white-space: normal; -unity-text-align: upper-center;" />
+</ui:UXML>

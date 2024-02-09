@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.unity.character_controller/Editor/UXML/OverlayUSS.uss?fileID=7433441132597879392&amp;guid=00b80dcd15dd84ec29df4c3b4004ad48&amp;type=3#OverlayUSS" />
+    <ui:VisualElement name="root" style="height: auto; width: 200px; align-items: flex-start; flex-direction: row; flex-wrap: wrap; justify-content: flex-start;" />
+</ui:UXML>

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Toggle label="Visible" binding-path="_isVisible" name="child_visible" style="align-items: center;" />
+    <uie:ColorField label="Folder Color" value="#FFFFFFFF" show-alpha="false" binding-path="_menuColor" show-eye-dropper="false" hdr="false" name="menu_color" style="align-items: center;" />
+    <ui:Label tabindex="-1" text="Description" display-tooltip-when-elided="true" name="Label" style="justify-content: center; margin-left: 6px; margin-right: 5px; margin-top: 2px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+    <ui:ScrollView horizontal-scroller-visibility="Hidden" nested-interaction-kind="ForwardScrolling" style="max-height: 180px;">
+        <ui:TextField picking-mode="Ignore" value="filler text" text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" multiline="true" binding-path="_comment" name="comments" style="height: auto; flex-wrap: wrap; white-space: normal; padding-top: 0; min-height: 80px;" />
+    </ui:ScrollView>
+</ui:UXML>

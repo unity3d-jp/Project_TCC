@@ -1,0 +1,16 @@
+{
+    "name": "GameDataSave.Sample",
+    "rootNamespace": "GameDataSave.Sample",
+    "references": [
+        "GUID:13702346e58e7450b8817a09fc821ccf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

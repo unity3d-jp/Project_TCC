@@ -1,0 +1,7 @@
+{
+  "name": "com.utj.save.helper",
+  "displayName": "Game Data Save Helper",
+  "version": "0.0.0",
+  "unity": "2021.3",
+  "description": "This package is designed for saving and loading game data effortlessly. It is tailored for those who prefer not to write scripts, making it beginner-friendly and suitable for users looking to avoid scripting. The package organizes data on a per-GameObject basis, storing it in Json format. This ensures easy data management and makes it well-suited for use with Visual Scripting."
+}

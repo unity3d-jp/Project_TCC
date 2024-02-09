@@ -1,0 +1,1958 @@
+fileFormatVersion: 2
+guid: 62a89c64caaa5594bb7290f3fb9c0d71
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Back_Idle
+    second: {fileID: 7400000, guid: fa7713ff380572b4cb26eded76f2d865, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Back_Run
+    second: {fileID: 7400000, guid: 10b06ad95147b5647ae28f72644691b7, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Front_Idle
+    second: {fileID: 7400000, guid: 2768fb0ef31436d4a805fdb7d90639a9, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Front_Run
+    second: {fileID: 7400000, guid: 7e4aad03e9ceae345bc111f3b6b40170, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Side_Idle
+    second: {fileID: 7400000, guid: 865e73a9421c0d8448c223201659e154, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Side_Run
+    second: {fileID: 7400000, guid: 8e735cad2419e5f4c8b39e537077d9ec, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Adwolf_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 4
+      width: 14
+      height: 14
+    spriteID: 18f32d18f235cf54883881d9d9c87f20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 4}
+  - name: Adwolf_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 94
+      width: 12
+      height: 14
+    spriteID: 599286c353ba56547a6ca8a9af4f9ccc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 94}
+  - name: Adwolf_Frame_2
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 71
+      width: 13
+      height: 15
+    spriteID: cf170a78ec5ae3b4792276462e44da06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 71}
+  - name: Adwolf_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 26
+      width: 14
+      height: 15
+    spriteID: db7a55a5b4c125e4ea5c12a972296160
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 26}
+  - name: Adwolf_Frame_4
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 71
+      width: 13
+      height: 14
+    spriteID: 61621ea74d6dcda44bf0459b233ce7fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 71}
+  - name: Adwolf_Frame_5
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 117
+      width: 11
+      height: 15
+    spriteID: 594f4de1b1e2fa64780dfa515790cd5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 117}
+  - name: Adwolf_Frame_6
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 71
+      width: 12
+      height: 15
+    spriteID: ad510e4911a08f748b457c3513ca07cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 71}
+  - name: Adwolf_Frame_7
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 26
+      width: 14
+      height: 15
+    spriteID: 3d72c6a5daa4c6543b3b1b87a0c39a81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 26}
+  - name: Adwolf_Frame_8
+    originalName: 
+    pivot: {x: 0.6363636, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 117
+      width: 11
+      height: 14
+    spriteID: 29b91801da7f6a34992770fd55ae6cae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 117}
+  - name: Adwolf_Frame_9
+    originalName: 
+    pivot: {x: 0.6, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 49
+      width: 10
+      height: 14
+    spriteID: 995385738ea098941a257e9395e01757
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 49}
+  - name: Adwolf_Frame_10
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 23
+      y: 117
+      width: 11
+      height: 15
+    spriteID: 091e20b19fc59ad47ad75e1149a1cdfd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 23, y: 117}
+  - name: Adwolf_Frame_11
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 94
+      width: 12
+      height: 15
+    spriteID: fdd4d758c15191146933ecbc1ef27967
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 94}
+  - name: Adwolf_Frame_12
+    originalName: 
+    pivot: {x: 0.6363636, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 117
+      width: 11
+      height: 14
+    spriteID: 42cd986ce6ba9a845ad6669e1f9205fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 117}
+  - name: Adwolf_Frame_13
+    originalName: 
+    pivot: {x: 0.6, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 117
+      width: 10
+      height: 15
+    spriteID: 3789b272e8cd3cc4e8933cb821f9f13d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 117}
+  - name: Adwolf_Frame_14
+    originalName: 
+    pivot: {x: 0.6363636, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 117
+      width: 11
+      height: 15
+    spriteID: 2f6a53f31ed9d6f4082e77c3ab534401
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 117}
+  - name: Adwolf_Frame_15
+    originalName: 
+    pivot: {x: 0.61538464, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 71
+      width: 13
+      height: 15
+    spriteID: 1557e36eb0563594cb70ac2476023e0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 71}
+  - name: Adwolf_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 4
+      width: 14
+      height: 14
+    spriteID: 25d3c052160bb064c9186d95ea9b8ee8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 4}
+  - name: Adwolf_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 146
+      y: 94
+      width: 12
+      height: 14
+    spriteID: 03c3ac140568b5d489657dc633ddaf1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 146, y: 94}
+  - name: Adwolf_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 94
+      width: 12
+      height: 15
+    spriteID: 0317dc8925f2b1742ad3aaa8b65a2ef1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 94}
+  - name: Adwolf_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 26
+      width: 14
+      height: 15
+    spriteID: 2f4c720d433003a4197a42d295e8a13f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 26}
+  - name: Adwolf_Frame_20
+    originalName: 
+    pivot: {x: 0.36363637, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 117
+      width: 11
+      height: 14
+    spriteID: ca8593c8249f39940bd4643ae17ff882
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 117}
+  - name: Adwolf_Frame_21
+    originalName: 
+    pivot: {x: 0.4, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 117
+      width: 10
+      height: 15
+    spriteID: 902ec55e4e2155141aefaa38dc3cff86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 117}
+  - name: Adwolf_Frame_22
+    originalName: 
+    pivot: {x: 0.36363637, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 117
+      width: 11
+      height: 15
+    spriteID: d6293429d2518124482f2b16b6873e94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 117}
+  - name: Adwolf_Frame_23
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 71
+      width: 13
+      height: 15
+    spriteID: e03d528625e8fbb4a9f6ac785d6f9f48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 71}
+  - name: Adwolf_Frame_24
+    originalName: 
+    pivot: {x: 0.36363637, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 195
+      y: 117
+      width: 11
+      height: 14
+    spriteID: 381db8d6230ab3b438679f9d25a00d93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 195, y: 117}
+  - name: Adwolf_Frame_25
+    originalName: 
+    pivot: {x: 0.4, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 49
+      width: 10
+      height: 14
+    spriteID: b6c0ecd8c506d6e4a9fbd6e0a376336b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 49}
+  - name: Adwolf_Frame_26
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 117
+      width: 11
+      height: 15
+    spriteID: 493af9bceada347458129278efa16e4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 117}
+  - name: Adwolf_Frame_27
+    originalName: 
+    pivot: {x: 0.4166667, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 94
+      width: 12
+      height: 15
+    spriteID: a8311cd24e10fe64cb99c180a8f4835a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 94}
+  - name: Adwolf_Frame_28
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 71
+      width: 13
+      height: 14
+    spriteID: dd8747348924bdb40a019268d17db9c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 71}
+  - name: Adwolf_Frame_29
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 117
+      width: 11
+      height: 15
+    spriteID: b5de43bddc0027947abf3029e376714c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 117}
+  - name: Adwolf_Frame_30
+    originalName: 
+    pivot: {x: 0.4166667, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 94
+      width: 12
+      height: 15
+    spriteID: ca26f18880efcc34793f57f35089dea4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 94}
+  - name: Adwolf_Frame_31
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 26
+      width: 14
+      height: 15
+    spriteID: d72961723f29e81499fd4eb9488df636
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 26}
+  - name: Adwolf_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 16
+      height: 14
+    spriteID: dbbd6665ccfad214781d6d649f6e42f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Adwolf_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 4
+      width: 16
+      height: 14
+    spriteID: 0a9c828dfc390104ea2eec1f76aa1900
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 4}
+  - name: Adwolf_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 4
+      width: 16
+      height: 14
+    spriteID: 8c5e16ba7b90c034ab7d70a5a6b52411
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 4}
+  - name: Adwolf_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 4
+      width: 16
+      height: 14
+    spriteID: fa11e729155439849afdd610b76a6578
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 4}
+  - name: Adwolf_Frame_36
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 71
+      width: 14
+      height: 13
+    spriteID: 65a844d243477ed4f99159760d7cb80e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 71}
+  - name: Adwolf_Frame_37
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 4
+      width: 14
+      height: 14
+    spriteID: 6f5b911ed27eaa64497868779742a75a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 4}
+  - name: Adwolf_Frame_38
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 26
+      width: 14
+      height: 14
+    spriteID: a76b8b4cfede47a49b818ab5d1bcdad2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 26}
+  - name: Adwolf_Frame_39
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 26
+      width: 14
+      height: 14
+    spriteID: 4700c8fc106217045af0499f703c2378
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 26}
+  - name: Adwolf_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 71
+      width: 14
+      height: 13
+    spriteID: d8a456c59c7a6a343a0a195fd6808078
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 71}
+  - name: Adwolf_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 26
+      width: 14
+      height: 14
+    spriteID: 01ac28c3a4870c5419bfa08e47031d82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 26}
+  - name: Adwolf_Frame_42
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 4
+      width: 15
+      height: 14
+    spriteID: 391d8bae853848547bf293236fbaa533
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 4}
+  - name: Adwolf_Frame_43
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 4
+      width: 15
+      height: 14
+    spriteID: 70fac676d510e124f93e8cf638fd42d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 4}
+  - name: Adwolf_Frame_44
+    originalName: 
+    pivot: {x: 0.61538464, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 94
+      width: 13
+      height: 13
+    spriteID: 44e065d480dcf8041947acb97a086eaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 94}
+  - name: Adwolf_Frame_45
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 166
+      y: 94
+      width: 12
+      height: 14
+    spriteID: 9e4b75e64434f7b4faab9fd00dcddf74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 166, y: 94}
+  - name: Adwolf_Frame_46
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 186
+      y: 94
+      width: 12
+      height: 14
+    spriteID: fb94c3c4c891f414ab34e768a5f76678
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 186, y: 94}
+  - name: Adwolf_Frame_47
+    originalName: 
+    pivot: {x: 0.61538464, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 153
+      y: 71
+      width: 13
+      height: 14
+    spriteID: fb681d72f0b2b8c4ebb6ef672e2573f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 153, y: 71}
+  - name: Adwolf_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 26
+      width: 14
+      height: 14
+    spriteID: b01d3862e2bef9748a920766aabb2281
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 26}
+  - name: Adwolf_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 117
+      width: 12
+      height: 13
+    spriteID: 162ab02ac3ef4364a91405a7ed064bdd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 117}
+  - name: Adwolf_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 94
+      width: 12
+      height: 14
+    spriteID: 0e7caf187bd1f7b4c9ae8a3b0613ae67
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 94}
+  - name: Adwolf_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 174
+      y: 71
+      width: 14
+      height: 13
+    spriteID: 21be60c3f1f3deb4596a399bcaf9d277
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 174, y: 71}
+  - name: Adwolf_Frame_52
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 94
+      width: 13
+      height: 13
+    spriteID: 90dd05de8e0297f49a6b7a3a2e0bcc60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 94}
+  - name: Adwolf_Frame_53
+    originalName: 
+    pivot: {x: 0.4166667, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 94
+      width: 12
+      height: 14
+    spriteID: 115fc32b7fff04b4ba18b8e2a1e716c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 94}
+  - name: Adwolf_Frame_54
+    originalName: 
+    pivot: {x: 0.4166667, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 49
+      width: 12
+      height: 14
+    spriteID: c4ff3828da71cc8479bc8c9bc98194c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 49}
+  - name: Adwolf_Frame_55
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 71
+      width: 13
+      height: 14
+    spriteID: d6f67d747e98fa942b68e18500650407
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 71}
+  - name: Adwolf_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 71
+      width: 14
+      height: 13
+    spriteID: f65224e4cf88bab4d91fdffc3eaf7004
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 71}
+  - name: Adwolf_Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 26
+      width: 14
+      height: 14
+    spriteID: 05c7df309f588de46bee8514ad67cc1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 26}
+  - name: Adwolf_Frame_58
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 146
+      y: 4
+      width: 15
+      height: 14
+    spriteID: c7ff6498b84c6f742b0f84d9412896df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 146, y: 4}
+  - name: Adwolf_Frame_59
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 4
+      width: 15
+      height: 14
+    spriteID: 46103ec50356eae45974aa64d5410976
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 4}
+  - name: Adwolf_Frame_60
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 49
+      width: 14
+      height: 13
+    spriteID: 6116904783c070140a68bc5fa7ae4b1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 49}
+  - name: Adwolf_Frame_61
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 202
+      y: 26
+      width: 14
+      height: 14
+    spriteID: ad985f5ecfb45014da85d823ec08f7db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 202, y: 26}
+  - name: Adwolf_Frame_62
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 26
+      width: 14
+      height: 14
+    spriteID: ad0b7b96a1161684bb72453e589670e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 224, y: 26}
+  - name: Adwolf_Frame_63
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 49
+      width: 14
+      height: 14
+    spriteID: a6d76bff876ee7b4d84a2af755e1e52c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 49}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -534207429
+    name: Adwolf
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Adwolf_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 14
+      spriteId: 18f32d18f235cf54883881d9d9c87f20
+    - name: Adwolf_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 14
+      spriteId: 599286c353ba56547a6ca8a9af4f9ccc
+    - name: Adwolf_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 15
+      spriteId: cf170a78ec5ae3b4792276462e44da06
+    - name: Adwolf_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 15
+      spriteId: db7a55a5b4c125e4ea5c12a972296160
+    - name: Adwolf_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 1
+        y: 1
+        width: 13
+        height: 14
+      spriteId: 61621ea74d6dcda44bf0459b233ce7fc
+    - name: Adwolf_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 2
+        y: 1
+        width: 11
+        height: 15
+      spriteId: 594f4de1b1e2fa64780dfa515790cd5e
+    - name: Adwolf_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 1
+        y: 1
+        width: 12
+        height: 15
+      spriteId: ad510e4911a08f748b457c3513ca07cc
+    - name: Adwolf_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 3d72c6a5daa4c6543b3b1b87a0c39a81
+    - name: Adwolf_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 1
+        y: 1
+        width: 11
+        height: 14
+      spriteId: 29b91801da7f6a34992770fd55ae6cae
+    - name: Adwolf_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 2
+        y: 1
+        width: 10
+        height: 14
+      spriteId: 995385738ea098941a257e9395e01757
+    - name: Adwolf_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 2
+        y: 1
+        width: 11
+        height: 15
+      spriteId: 091e20b19fc59ad47ad75e1149a1cdfd
+    - name: Adwolf_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 1
+        y: 1
+        width: 12
+        height: 15
+      spriteId: fdd4d758c15191146933ecbc1ef27967
+    - name: Adwolf_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 1
+        y: 1
+        width: 11
+        height: 14
+      spriteId: 42cd986ce6ba9a845ad6669e1f9205fe
+    - name: Adwolf_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 2
+        y: 1
+        width: 10
+        height: 15
+      spriteId: 3789b272e8cd3cc4e8933cb821f9f13d
+    - name: Adwolf_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 1
+        y: 1
+        width: 11
+        height: 15
+      spriteId: 2f6a53f31ed9d6f4082e77c3ab534401
+    - name: Adwolf_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 1
+        width: 13
+        height: 15
+      spriteId: 1557e36eb0563594cb70ac2476023e0f
+    - name: Adwolf_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 14
+      spriteId: 25d3c052160bb064c9186d95ea9b8ee8
+    - name: Adwolf_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 14
+      spriteId: 03c3ac140568b5d489657dc633ddaf1d
+    - name: Adwolf_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 15
+      spriteId: 0317dc8925f2b1742ad3aaa8b65a2ef1
+    - name: Adwolf_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 15
+      spriteId: 2f4c720d433003a4197a42d295e8a13f
+    - name: Adwolf_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 4
+        y: 1
+        width: 11
+        height: 14
+      spriteId: ca8593c8249f39940bd4643ae17ff882
+    - name: Adwolf_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 4
+        y: 1
+        width: 10
+        height: 15
+      spriteId: 902ec55e4e2155141aefaa38dc3cff86
+    - name: Adwolf_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 4
+        y: 1
+        width: 11
+        height: 15
+      spriteId: d6293429d2518124482f2b16b6873e94
+    - name: Adwolf_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 3
+        y: 1
+        width: 13
+        height: 15
+      spriteId: e03d528625e8fbb4a9f6ac785d6f9f48
+    - name: Adwolf_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 4
+        y: 1
+        width: 11
+        height: 14
+      spriteId: 381db8d6230ab3b438679f9d25a00d93
+    - name: Adwolf_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 4
+        y: 1
+        width: 10
+        height: 14
+      spriteId: b6c0ecd8c506d6e4a9fbd6e0a376336b
+    - name: Adwolf_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 3
+        y: 1
+        width: 11
+        height: 15
+      spriteId: 493af9bceada347458129278efa16e4c
+    - name: Adwolf_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 3
+        y: 1
+        width: 12
+        height: 15
+      spriteId: a8311cd24e10fe64cb99c180a8f4835a
+    - name: Adwolf_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 14
+      spriteId: dd8747348924bdb40a019268d17db9c2
+    - name: Adwolf_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 3
+        y: 1
+        width: 11
+        height: 15
+      spriteId: b5de43bddc0027947abf3029e376714c
+    - name: Adwolf_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 3
+        y: 1
+        width: 12
+        height: 15
+      spriteId: ca26f18880efcc34793f57f35089dea4
+    - name: Adwolf_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 2
+        y: 1
+        width: 14
+        height: 15
+      spriteId: d72961723f29e81499fd4eb9488df636
+    - name: Adwolf_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: 1
+        width: 16
+        height: 14
+      spriteId: dbbd6665ccfad214781d6d649f6e42f9
+    - name: Adwolf_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: 1
+        width: 16
+        height: 14
+      spriteId: 0a9c828dfc390104ea2eec1f76aa1900
+    - name: Adwolf_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: 1
+        width: 16
+        height: 14
+      spriteId: 8c5e16ba7b90c034ab7d70a5a6b52411
+    - name: Adwolf_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: 1
+        width: 16
+        height: 14
+      spriteId: fa11e729155439849afdd610b76a6578
+    - name: Adwolf_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: 1
+        width: 14
+        height: 13
+      spriteId: 65a844d243477ed4f99159760d7cb80e
+    - name: Adwolf_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: 1
+        width: 14
+        height: 14
+      spriteId: 6f5b911ed27eaa64497868779742a75a
+    - name: Adwolf_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: 1
+        width: 14
+        height: 14
+      spriteId: a76b8b4cfede47a49b818ab5d1bcdad2
+    - name: Adwolf_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: 1
+        width: 14
+        height: 14
+      spriteId: 4700c8fc106217045af0499f703c2378
+    - name: Adwolf_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 13
+      spriteId: d8a456c59c7a6a343a0a195fd6808078
+    - name: Adwolf_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 14
+      spriteId: 01ac28c3a4870c5419bfa08e47031d82
+    - name: Adwolf_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 0
+        y: 1
+        width: 15
+        height: 14
+      spriteId: 391d8bae853848547bf293236fbaa533
+    - name: Adwolf_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 0
+        y: 1
+        width: 15
+        height: 14
+      spriteId: 70fac676d510e124f93e8cf638fd42d1
+    - name: Adwolf_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 0
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 44e065d480dcf8041947acb97a086eaf
+    - name: Adwolf_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 1
+        y: 1
+        width: 12
+        height: 14
+      spriteId: 9e4b75e64434f7b4faab9fd00dcddf74
+    - name: Adwolf_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 1
+        y: 1
+        width: 12
+        height: 14
+      spriteId: fb94c3c4c891f414ab34e768a5f76678
+    - name: Adwolf_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 0
+        y: 1
+        width: 13
+        height: 14
+      spriteId: fb681d72f0b2b8c4ebb6ef672e2573f5
+    - name: Adwolf_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 14
+      spriteId: b01d3862e2bef9748a920766aabb2281
+    - name: Adwolf_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 13
+      spriteId: 162ab02ac3ef4364a91405a7ed064bdd
+    - name: Adwolf_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 14
+      spriteId: 0e7caf187bd1f7b4c9ae8a3b0613ae67
+    - name: Adwolf_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 13
+      spriteId: 21be60c3f1f3deb4596a399bcaf9d277
+    - name: Adwolf_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 3
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 90dd05de8e0297f49a6b7a3a2e0bcc60
+    - name: Adwolf_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 3
+        y: 1
+        width: 12
+        height: 14
+      spriteId: 115fc32b7fff04b4ba18b8e2a1e716c2
+    - name: Adwolf_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 3
+        y: 1
+        width: 12
+        height: 14
+      spriteId: c4ff3828da71cc8479bc8c9bc98194c3
+    - name: Adwolf_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 3
+        y: 1
+        width: 13
+        height: 14
+      spriteId: d6f67d747e98fa942b68e18500650407
+    - name: Adwolf_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 13
+      spriteId: f65224e4cf88bab4d91fdffc3eaf7004
+    - name: Adwolf_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 14
+      spriteId: 05c7df309f588de46bee8514ad67cc1f
+    - name: Adwolf_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 1
+        y: 1
+        width: 15
+        height: 14
+      spriteId: c7ff6498b84c6f742b0f84d9412896df
+    - name: Adwolf_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 1
+        y: 1
+        width: 15
+        height: 14
+      spriteId: 46103ec50356eae45974aa64d5410976
+    - name: Adwolf_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 2
+        y: 1
+        width: 14
+        height: 13
+      spriteId: 6116904783c070140a68bc5fa7ae4b1f
+    - name: Adwolf_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 2
+        y: 1
+        width: 14
+        height: 14
+      spriteId: ad985f5ecfb45014da85d823ec08f7db
+    - name: Adwolf_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 2
+        y: 1
+        width: 14
+        height: 14
+      spriteId: ad0b7b96a1161684bb72453e589670e4
+    - name: Adwolf_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 2
+        y: 1
+        width: 14
+        height: 14
+      spriteId: a6d76bff876ee7b4d84a2af755e1e52c
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 16, y: 16}

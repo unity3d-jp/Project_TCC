@@ -1,0 +1,7 @@
+{
+  "name": "com.utj.scenario.importer",
+  "displayName": "Scenario Importer",
+  "version": "0.0.0",
+  "unity": "2022.2",
+  "description": "This package is designed to automate the utilization of scripts from scenarios (text data). \nThe script is output as a scriptable object consisting of dialogues and events."
+}

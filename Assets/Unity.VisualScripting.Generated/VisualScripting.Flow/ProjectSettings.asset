@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bae8b9f1bd244b3a27e92af4b23b2a, type: 3}
+  m_Name: ProjectSettings
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"dictionary":{"favoriteUnitOptions":{"$content":["UnityEngine.GameObject.SetActive(System.Boolean)@any","Unity.VisualScripting.Timer","Unity.VisualScripting.Cooldown","Unity.VisualScripting.ScalarMultiply","UnityEngine.AudioSource.PlayOneShot(UnityEngine.AudioClipSystem.Single)@any","System.Int32@literal"],"$type":"System.Collections.Generic.HashSet`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"projectSetupCompleted":{"$content":false,"$type":"System.Boolean"},"savedVersion":{"major":1,"minor":5,"patch":1,"label":null,"increment":0,"$type":"Unity.VisualScripting.SemanticVersion"}}}'
+    _objectReferences: []

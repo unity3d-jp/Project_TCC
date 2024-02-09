@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RifleAim
+  m_Mask: 00000000000000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Meshes
+    m_Weight: 0
+  - m_Path: Meshes/Body
+    m_Weight: 0
+  - m_Path: Meshes/Eyes
+    m_Weight: 0
+  - m_Path: Meshes/Hair_Default
+    m_Weight: 0
+  - m_Path: Meshes/Head_Def
+    m_Weight: 0
+  - m_Path: Unitychan_Root
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/DB_L_Hoodie_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/DB_L_Hoodie_00/DB_L_Hoodie_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/DB_L_HoodieFront_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/DB_L_HoodieFront_00/DB_L_HoodieFront_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/DB_L_HoodieSide_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/DB_L_HoodieSide_00/DB_L_HoodieSide_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/DB_R_Hoodie_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/DB_R_Hoodie_00/DB_R_Hoodie_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/DB_R_HoodieFront_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/DB_R_HoodieFront_00/DB_R_HoodieFront_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/DB_R_HoodieSide_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/DB_R_HoodieSide_00/DB_R_HoodieSide_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_FN_Hip
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_L_Thigh
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_L_Thigh/DB_L_Skirt_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_L_Thigh/DB_L_Skirt_01/DB_L_Skirt_02
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_L_Thigh/DB_L_SkirtBack_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_L_Thigh/DB_L_SkirtBack_01/DB_L_SkirtBack_02
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_L_Thigh/J_L_Shin
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_L_Thigh/J_L_Shin/J_L_Foot
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_L_Thigh/J_L_Shin/J_L_Foot/J_L_Toe
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_R_Thigh
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_R_Thigh/DB_R_Skirt_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_R_Thigh/DB_R_Skirt_01/DB_R_Skirt_02
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_R_Thigh/DB_R_SkirtBack_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_R_Thigh/DB_R_SkirtBack_01/DB_R_SkirtBack_02
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_R_Thigh/J_R_Shin
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_R_Thigh/J_R_Shin/J_R_Foot
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_R_Thigh/J_R_Shin/J_R_Foot/J_R_Toe
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine
+    m_Weight: 1
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest
+    m_Weight: 1
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_FN_Chest
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest
+    m_Weight: 1
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/DB_L_Bust_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/DB_L_Bust_00/DB_L_Bust_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/DB_L_Bust_00/DB_L_Bust_01/DB_L_Bust_02
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/DB_R_Bust_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/DB_R_Bust_00/DB_R_Bust_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/DB_R_Bust_00/DB_R_Bust_01/DB_R_Bust_02
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder
+    m_Weight: 1
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm
+    m_Weight: 1
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm
+    m_Weight: 1
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/DB_L_Sode_A00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/DB_L_Sode_A00/DB_L_Sode_A01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/DB_L_Sode_B00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/DB_L_Sode_B00/DB_L_Sode_B01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/DB_L_Sode_C00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/DB_L_Sode_C00/DB_L_Sode_C01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/DB_L_Sode_D00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/DB_L_Sode_D00/DB_L_Sode_D01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand
+    m_Weight: 1
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_FN_Left
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Index1
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Index1/J_L_Index2
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Index1/J_L_Index2/J_L_Index3
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Index1/J_L_Index2/J_L_Index3/J_L_Index4
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Middle1
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Middle1/J_L_Middle2
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Middle1/J_L_Middle2/J_L_Middle3
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Middle1/J_L_Middle2/J_L_Middle3/J_L_Middle4
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Pinky1
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Pinky1/J_L_Pinky2
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Pinky1/J_L_Pinky2/J_L_Pinky3
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Pinky1/J_L_Pinky2/J_L_Pinky3/J_L_Pinky4
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Ring1
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Ring1/J_L_Ring2
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Ring1/J_L_Ring2/J_L_Ring3
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Ring1/J_L_Ring2/J_L_Ring3/J_L_Ring4
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Thumb1
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Thumb1/J_L_Thumb2
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Thumb1/J_L_Thumb2/J_L_Thumb3
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_L_Shoulder/J_L_UpperArm/J_L_LowerArm/J_L_Hand/J_L_Thumb1/J_L_Thumb2/J_L_Thumb3/J_L_Thumb4
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck
+    m_Weight: 1
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head
+    m_Weight: 1
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HairFront_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HairFront_00/DB_L_HairFront_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HairSide_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HairSide_00/DB_L_HairSide_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HairSide_00/DB_L_HairSide_01/DB_L_HairSide_02
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HairTail_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HairTail_00/DB_L_HairTail_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HairTail_00/DB_L_HairTail_01/DB_L_HairTail_02
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HairTail_00/DB_L_HairTail_01/DB_L_HairTail_02/DB_L_HairTail_03
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HairTail_00/DB_L_HairTail_01/DB_L_HairTail_02/DB_L_HairTail_03/DB_L_HairTail_04
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HairTail_00/DB_L_HairTail_01/DB_L_HairTail_02/DB_L_HairTail_03/DB_L_HairTail_04/DB_L_HairTail_05
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HairTail_00/DB_L_HairTail_01/DB_L_HairTail_02/DB_L_HairTail_03/DB_L_HairTail_04/DB_L_HairTail_05/DB_L_HairTail_06
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HeadRibbon_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HeadRibbon_00/DB_L_HeadRibbon_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_L_HeadRibbon_00/DB_L_HeadRibbon_01/DB_L_HeadRibbon_02
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HairFront_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HairFront_00/DB_R_HairFront_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HairSide_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HairSide_00/DB_R_HairSide_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HairSide_00/DB_R_HairSide_01/DB_R_HairSide_02
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HairTail_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HairTail_00/DB_R_HairTail_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HairTail_00/DB_R_HairTail_01/DB_R_HairTail_02
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HairTail_00/DB_R_HairTail_01/DB_R_HairTail_02/DB_R_HairTail_03
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HairTail_00/DB_R_HairTail_01/DB_R_HairTail_02/DB_R_HairTail_03/DB_R_HairTail_04
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HairTail_00/DB_R_HairTail_01/DB_R_HairTail_02/DB_R_HairTail_03/DB_R_HairTail_04/DB_R_HairTail_05
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HairTail_00/DB_R_HairTail_01/DB_R_HairTail_02/DB_R_HairTail_03/DB_R_HairTail_04/DB_R_HairTail_05/DB_R_HairTail_06
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HeadRibbon_00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HeadRibbon_00/DB_R_HeadRibbon_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/DB_R_HeadRibbon_00/DB_R_HeadRibbon_01/DB_R_HeadRibbon_02
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/J_FN_Head
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/J_L_Eye_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/J_L_Eye_01/J_L_Eye_02
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/J_R_Eye_01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_Neck/J_Head/J_R_Eye_01/J_R_Eye_02
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder
+    m_Weight: 1
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm
+    m_Weight: 1
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm
+    m_Weight: 1
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/DB_R_Sode_A00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/DB_R_Sode_A00/DB_R_Sode_A01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/DB_R_Sode_B00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/DB_R_Sode_B00/DB_R_Sode_B01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/DB_R_Sode_C00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/DB_R_Sode_C00/DB_R_Sode_C01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/DB_R_Sode_D00
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/DB_R_Sode_D00/DB_R_Sode_D01
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand
+    m_Weight: 1
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_FN_Right
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Index1
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Index1/J_R_Index2
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Index1/J_R_Index2/J_R_Index3
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Index1/J_R_Index2/J_R_Index3/J_R_Index4
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Middle1
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Middle1/J_R_Middle2
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Middle1/J_R_Middle2/J_R_Middle3
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Middle1/J_R_Middle2/J_R_Middle3/J_R_Middle4
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Pinky1
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Pinky1/J_R_Pinky2
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Pinky1/J_R_Pinky2/J_R_Pinky3
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Pinky1/J_R_Pinky2/J_R_Pinky3/J_R_Pinky4
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Ring1
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Ring1/J_R_Ring2
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Ring1/J_R_Ring2/J_R_Ring3
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Ring1/J_R_Ring2/J_R_Ring3/J_R_Ring4
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Thumb1
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Thumb1/J_R_Thumb2
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Thumb1/J_R_Thumb2/J_R_Thumb3
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_Hips/J_Spine/J_Chest/J_UpperChest/J_R_Shoulder/J_R_UpperArm/J_R_LowerArm/J_R_Hand/J_R_Thumb1/J_R_Thumb2/J_R_Thumb3/J_R_Thumb4
+    m_Weight: 0
+  - m_Path: Unitychan_Root/J_WorldItem
+    m_Weight: 0

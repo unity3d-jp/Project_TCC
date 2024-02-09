@@ -1,0 +1,44 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.unity.character_controller/Editor/UXML/OverlayUSS.uss?fileID=7433441132597879392&amp;guid=00b80dcd15dd84ec29df4c3b4004ad48&amp;type=3#OverlayUSS" />
+    <ui:VisualElement name="play-root" style="width: 200px; overflow: hidden; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:VisualElement style="flex-direction: column; justify-content: space-between;">
+            <ui:Foldout text="Move" view-data-key="tcc-velocity-move">
+                <ui:VisualElement class="element-margin" style="align-items: flex-start; flex-direction: row; justify-content: space-between; margin-bottom: 5px;">
+                    <ui:Label text="Move" display-tooltip-when-elided="false" enable-rich-text="false" class="title label" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="current-move-label" class="label" style="margin-left: 18px;" />
+                </ui:VisualElement>
+                <ui:VisualElement class="element-margin" style="align-items: flex-start; flex-direction: row; justify-content: space-between;">
+                    <ui:Label text="Control" display-tooltip-when-elided="true" name="Label" enable-rich-text="true" class="title label" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="control-direction-label" class="label" style="margin-left: 5px;" />
+                </ui:VisualElement>
+                <ui:VisualElement class="element-margin" style="align-items: flex-start; flex-direction: row; justify-content: space-between;">
+                    <ui:Label text="Effect" display-tooltip-when-elided="true" class="title label" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="additional-velocity-label" class="label" style="margin-left: 5px;" />
+                </ui:VisualElement>
+                <ui:VisualElement class="element-margin" style="align-items: flex-start; flex-direction: row; justify-content: space-between;">
+                    <ui:Label text="Local" display-tooltip-when-elided="true" name="Label" class="title label" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="local-velocity-label" class="label" style="margin-left: 5px;" />
+                </ui:VisualElement>
+                <ui:VisualElement class="element-margin" style="flex-direction: row; justify-content: space-between;">
+                    <ui:Label text="Speed" display-tooltip-when-elided="true" class="label" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="turn-speed-label" class="label" />
+                </ui:VisualElement>
+            </ui:Foldout>
+            <ui:Foldout text="Turn" view-data-key="tcc-velocity-turn" value="false">
+                <ui:VisualElement class="element-margin" style="align-items: flex-start; flex-direction: row; justify-content: space-between; margin-bottom: 5px;">
+                    <ui:Label text="Turn" display-tooltip-when-elided="true" class="title label" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="current-rotation-label" class="label" style="margin-left: 5px;" />
+                </ui:VisualElement>
+                <ui:VisualElement class="box Element" style="height: 0; width: 0;" />
+                <ui:VisualElement class="element-margin" style="align-items: flex-start; flex-direction: row; justify-content: space-between;">
+                    <ui:Label text="Angle" display-tooltip-when-elided="true" class="label" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="turn-label" class="label" />
+                </ui:VisualElement>
+                <ui:VisualElement class="element-margin" style="align-items: flex-start; flex-direction: row; justify-content: space-between;">
+                    <ui:Label text="Delta Angle" display-tooltip-when-elided="true" class="title label" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="turn-delta-label" class="label" style="margin-left: 5px;" />
+                </ui:VisualElement>
+            </ui:Foldout>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

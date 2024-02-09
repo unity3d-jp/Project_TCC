@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UC-09_DungeonCrawl
+  m_EditorClassIdentifier: 
+  m_GroupName: UC-09_DungeonCrawl
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e4c391f1ff80ce146a4cf05812b8388c
+  m_SerializeEntries:
+  - m_GUID: 9646b1a04a0213a44ad0302107a6fffe
+    m_Address: Assets/Scenes/UC_StepByStep_TCC/07_Scene/Data_UC-01_SceneLoader/SaveData/GameProgress.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb5962ac896000a45a9f95a42689b2ca
+    m_Address: Assets/Scenes/UC_StepByStep_TCC/07_Scene/Data_UC-01_SceneLoader/SaveData/Options.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfff4cb4246b52d44a69d1fbd61a200c
+    m_Address: Assets/Scenes/UC_StepByStep_TCC/07_Scene/Data_UC-01_SceneLoader/SaveData/PlayerPosition.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f90a7787666c164ab1e8794c2c8c973
+    m_Address: Assets/Scenes/UC_StepByStep_TCC/07_Scene/Data_UC-01_SceneLoader/Scenes/Town_01.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c0f7ca0e09e74985911f5ba8e32e357
+    m_Address: 1.1 GameRoot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa9a60e058dea1d4395845560e7506a2
+    m_Address: Room1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3532cac7c13ad4d0c9f89b932bcff227
+    m_Address: 1.1.1 Loader Level 1-1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca9c7e775c1cb46029fa69b411f6325b
+    m_Address: 1.1.2 Loader Player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd4786fccc64243b7838a35c8939ca5c
+    m_Address: 1.1.3 Loader Menu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b3b5397f4c7744b8b0daf5b7aab1403
+    m_Address: 1.2 Loader_Title
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 261264137c05347f0ac1b77c2ba840fd
+    m_Address: 1.2.1 Loader Title Option
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e9f19b48e49d774c80744a1aaf762d2
+    m_Address: Itemlist
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21faea140ce94924c920dc5bcb71d155
+    m_Address: 1.1.1 Loader Level 1-2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a28fbb4aca05774c81332adcb4ff46f
+    m_Address: 1.1.1 Loader Level 1-3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cef62b4eb1ff7ca4b84c6ad3eacbafeb
+    m_Address: 1.1.1 Loader Level 1-4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6442a0cf3638f640b5a51916d3cb261
+    m_Address: 1.2 Loader_Ending
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7839b1d77868b4aa9ada60b03f2a55ef, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 27b333245c32e479789240b9d14a2933, type: 2}
+    - {fileID: 11400000, guid: 1865e7c83bca546058d619ee082afbfc, type: 2}

@@ -1,0 +1,18 @@
+{
+    "name": "Utj.TinyCharacterControllerEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:fd9b4bfdbc54f44ec99514cf98018183"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

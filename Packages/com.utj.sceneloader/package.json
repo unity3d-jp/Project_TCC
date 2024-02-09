@@ -1,0 +1,10 @@
+{
+  "name": "utj.com.utj.scene_loader",
+  "displayName": "Scene Loader",
+  "version": "0.0.0",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.unity.addressables": "1.19.19"
+  },
+  "description": "This package allows you to load and unload scenes with the same ease as toggling GameObjects between active and inactive states. \nThe functionality is achieved using Addressables."
+}

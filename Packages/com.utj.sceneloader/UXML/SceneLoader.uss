@@ -1,0 +1,11 @@
+.load-button {
+    flex-grow: 1;
+}
+
+.load-button:active {
+    background-color: rgba(197, 197, 197, 255);
+}
+
+.load-button:hover {
+    color: rgb(147, 183, 209);
+}

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Bolty Mech
+  m_EditorClassIdentifier: 
+  m_GroupName: Bolty Mech
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d32e819966dd445969256c6e269aca97
+  m_SerializeEntries:
+  - m_GUID: cbcb0dfe7183a4c12a72c8d1d2737819
+    m_Address: Assets/Scenes/BoltyMech/BoltyMech.Level.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84c788895a781564080720cabbb4d5f8
+    m_Address: Assets/Scenes/BoltyMech.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81e0741f91a7440fc87cb3af72c00575
+    m_Address: Assets/Scenes/BoltyMech/BoltyMech.Gimick.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bf42b77148f441838f1be948c58522c
+    m_Address: Assets/TCC/Contents/Characters/Robots/BoltyMech/Sample/BoltyMech/BoltyMech.Player.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 076a0d8b344a949b582bf9dd6ebb28f9
+    m_Address: Assets/TCC/Contents/Characters/Robots/BoltyMech/Sample/BoltyMech/HIT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f63e20ae3ea9b4085ac31254cb42f8cf
+    m_Address: Assets/TCC/Contents/Characters/Robots/BoltyMech/Sample/BoltyMech/Talk
+      Icon.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b9fe9f0e888b42df8cf001d0310eb57
+    m_Address: Assets/TCC/Contents/Characters/Robots/BoltyMech/Sample/BoltyMech/Line.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61fee0ea1664c4005aacc632a4c902c9
+    m_Address: Assets/TCC/Contents/Characters/BoltyMech/Sample/BoltyMech/BoltyMech.Props.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7839b1d77868b4aa9ada60b03f2a55ef, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c457cb1f748214d199f97dc448fb3c77, type: 2}
+    - {fileID: 11400000, guid: b539d0b9b28724b88be3470172cf08e5, type: 2}

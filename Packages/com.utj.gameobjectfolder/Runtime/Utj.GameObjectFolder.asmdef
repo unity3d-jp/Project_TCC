@@ -1,0 +1,16 @@
+{
+    "name": "Utj.GameObjectFolder",
+    "rootNamespace": "",
+    "references": [
+        "GUID:21b0c8d1703a94250bfac916590cea4f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SceneLoaderTest
+  m_EditorClassIdentifier: 
+  m_GroupName: SceneLoaderTest
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c1831d7ebd6ab40ed8daf544d743cbd7
+  m_SerializeEntries:
+  - m_GUID: 0e7d094d27dcf45df9991349018f1dda
+    m_Address: Packages/com.unity.character_controller/utj.sceneloader/Tests/LoadFromSceneLoader.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7839b1d77868b4aa9ada60b03f2a55ef, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 0}
+    - {fileID: 11400000, guid: 41f2884c33d434bd7968d35fe7aed308, type: 2}
+    - {fileID: 11400000, guid: 0d2ac2a4b1ca54ffa92f27358c33aeaa, type: 2}

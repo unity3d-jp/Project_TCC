@@ -1,0 +1,41 @@
+{
+    "name": "TinyCharacterController.VisualScripting",
+    "rootNamespace": "TinyCharacterController.VisualScripting",
+    "references": [
+        "GUID:21b0c8d1703a94250bfac916590cea4f",
+        "GUID:ea715009a4efd4c6cbc85be3ae097dd3",
+        "GUID:315d634a9ac6d460a9515f5a56be6311",
+        "GUID:fd9b4bfdbc54f44ec99514cf98018183",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:84651a3751eca9349aac36a66bba901b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "PACKAGE_VISUAL_SCRIPTING",
+        "SUPPORT_TCC"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.visualscripting",
+            "expression": "1.8.0",
+            "define": "PACKAGE_VISUAL_SCRIPTING"
+        },
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.0.0",
+            "define": "PACKAGE_INPUT_SYSTEM_EXISTS"
+        },
+        {
+            "name": "com.unity.addressables",
+            "expression": "1.21.1",
+            "define": "PACKAGE_ADDRESSABLE"
+        }
+    ],
+    "noEngineReferences": false
+}
