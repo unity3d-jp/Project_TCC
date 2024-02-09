@@ -37,6 +37,9 @@ https://github.com/adobe-fonts/source-han-sans?tab=License-1-ov-file#License-1-o
 ---
 # Project TCC 解説ドキュメント
 
+## Project_TCCが開発されたUnityのバージョン
+* Unity 2023.2.0f1
+
 ## 概要
 
 * Tiny Character Controller (TCC) は、キャラクターの挙動を複数の小さなコンポーネントを組み合わせて実現するシステムです。
@@ -153,4 +156,101 @@ Project_TCCに含まれる主要なコンポーネント群について、その
 
 ---
 これらのコンポーネント群を組み合わせることで、複雑なキャラクターの挙動や、様々なゲームシステムを柔軟に実装することが可能になります。TCCは、これらの基本コンポーネントをベースとして、開発者が独自の挙動や機能を追加しやすい構造になっている点も大きな特徴です。
+
+
+---
+# Step By Step（SBS）シリーズとは
+
+- SBSシリーズとは、Project_TCCの `Assets/TCC/Scenes` 内に収録されている、TCCのサンプルシーン群のことです。
+- SBSシリーズは基本的に01-01から順を追って機能が追加されていきます。
+- 歩行させる＞走らせる＞ジャンプさせる…といった形で、最終的にキャラクターをドライブさせる為の様々な方法を習得できるようになります。
+- また、とりあえずサンプルを開いて、興味を持ったシーン、または自分が作りたいゲームに最も近いシーンからカスタムしていく事で、手軽にそれっぽい結果を得ることができます。
+- SBSシリーズはTCCの全ての機能を網羅しているわけではありません。TCCの機能は膨大ですが、作りたいゲームのとっかかり、或いは最短ルートを最初に示すのがSBSシリーズです。
+
+
+### 01.Move 基本動作
+- **UC-01-01 Walk**: キャラクターを歩行させる
+- **UC-01-02 Walk and Run**: キャラクターを走らせる
+- **UC-01-03 Move and Jump**: キャラクターにジャンプさせる
+- **UC-01-04 Move and DoubleJump**: 二段ジャンプさせる
+- **UC-01-05 Move Jump Crouch**: しゃがむ、しゃがんだ状態で歩かせる
+- **UC-01-06 TwinStickControl**: ツインスティックによる移動と視線制御を実装する
+
+### 02.Camera カメラ動作の追加
+- **UC-02-01A SimpleLookAt**: LookAtConstraintを使うことでカメラがキャラクターを注視するようにします
+- **UC-02-01B SimpleLookAt and Trace**: LookAtに加え、PositionConstraintを使ってキャラクターを追いかけるカメラを作ります
+- **UC-02-02 Cinemachine LookAt**: Cinemachineを使ってなめらかなルックアットを実装します
+- **UC-02-03 Cinemachine TPS Control**: TPS視点のカメラを実装します
+- **UC-02-04 Cinemachine 2D Control**: サイドビュー視点のカメラを実装します
+
+### 03.Action ゲームらしいアクションの追加
+- **UC-03-01 Dash**: キャラクターに瞬間的な移動を可能にさせます
+- **UC-03-02 Rolling**: キャラクターにローリング回避を実装します
+- **UC-03-03 Attack and Guard**: キャラクターに剣による攻撃とガードを実装します
+- **UC-03-04 Damage and Dodge**: キャラクターがダメージを受けたり、回避出来たりするようにします
+- **UC-03-05 Down and Wakeup**: キャラクターがダウン状態になったり、そこから復帰できるようにします
+- **UC-03-06 Sliding**: キャラクターがスライディングできるようにします
+- **UC-03-07 AerialKick**: ジャンプ中に急降下できるようにします
+- **UC-03-08 Wall Jump**: 壁に張り付き、更にジャンプできるようにします
+- **UC-03-09 Elude and Climb**: 壁のフチにぶら下がり、左右に移動できるようにします
+- **UC-03-10 Ambrella**: 落下中にジャンプボタンを長押しする事で落下速度を緩やかにすることができます
+
+
+### 04.Shooter TPS機能の実装
+- **UC-04-01 Rifle Control**: IKBrainを使って銃を構えられるようにします
+- **UC-04-02 Fire**: PooledGameObjectを使って弾が出るようにします
+- **UC-04-03 Hit**: 撃った弾が壁や対象物にヒットするようにします
+- **UC-04-04 WeaponChange and Reload**: 複数の武器の切り替えやリロードギミックを実装します
+
+### 05.Mechanics 実用的なギミックの作成
+- **UC-05-01A Platform**: 移動床を実装します(CharacterBrain)
+- **UC-05-01B Platform**: 移動床を実装します(RigidbodyBrain)
+- **UC-05-02 CheckpointSystem**: チェックポイントを実装します
+- **UC-05-03 ScoringSystem**: スコアリングを実装します
+- **UC-05-04 FlagSystem**: 簡易的なフラグシステムを実装します
+- **UC-05-05 MobSystem**: 徘徊するモブを実装します
+- **UC-05-06 MobSystem with Vision**: 徘徊するモブに視界を与え、行動を分岐させるようにします
+- **UC-05-07 MobSystem3(ManualControl)**: 2Dプラットフォームで使える汎用的なモブの動作を作成します
+- **UC-05-08 SequentialCollisionDetector**: SequentioalCollisionDetectorを使用して当たり判定を作ります
+
+### 06.UI UI機能の実装
+- **UC-06-01 SimpleText**: ただ文字を表示する機能を実装します
+- **UC-06-02A MessageBox**: NPC会話を実装します
+- **UC-06-02B MessageBoxEX**: より分量の多いNPC会話を実装します
+- **UC-06-03 LifeBar**: 体力バーを作ります
+- **UC-06-04 StaminaBar**: スタミナ要素を実装します
+- **UC-06-05 Minimap**: ミニマップを実装します
+- **UC-06-06 Indicator**: 画面外のターゲットをトレースするIndicator機能を実装します
+- **UC-06-07 PopupMessage Indicator**: ポップアップメッセージをIndicator機能で実装します
+- **UC-06-08 ShowInputKey**: キー入力とマウス入力を視覚化するシーンを実装します
+- **UC-06-09 IndicatorPin**: 攻撃時に与えたダメージを表示するシーンを実装します
+- **UC-06-10 LifeBar(ObjectPooling)**: メモリ式HPゲージを実装します
+
+
+### 07.Scene シーンの切り替えとマルチシーン管理
+- **UC-07-01 SceneLoader Introduction**: マルチシーンの利点を学ぶためのイントロダクション
+- **UC-07-02 SceneLoader Function**: シーンを複数用意してインタラクティブに切り替える方法を習得
+
+### 08.Cycle ゲームサイクルの実装
+- **UC-08-01A Save and Load Basic**: TCCが提供するSaveDataControl機能の基本を習得します
+- **UC-08-01B Save and Load Function**: DataSave機能を一通り触ることができるサンプル
+- **UC-08-02 Save and Load Advanced**: マルチシーンやDataSave機能を使い、RPGのフィールドを実装
+
+### 09. Additional Sample 追加サンプル。実際に遊べるゲーム
+- **UC-09-01 MaterialPropertyBlock**: マテリアルが共有された家の屋根を個別に透過させる
+- **UC-09-02A DungeonCrawl(Cycle)**: エリアごとにシーン分割されたダンジョン探索ゲームサンプル
+- **UC-09-02B DungeonCrawl(Advanced)**: 見下ろし型のダンジョン探索ゲームのサンプル
+- **UC-09-03 MetroidVania**: 2Dプラットフォームアクションのサンプル
+- **UC-09-04 2D 3D**: 2Dスプライトキャラクターを3Dワールド上で操作するサンプル
+- **UC-09-05 Drone**: ドローンレーシングのサンプル
+- **UC-09-07 CubePuzzle**: キューブを移動して道を作るパズルゲームのサンプル
+
+---
+2024/02/09 Unity Technologies Japan
+
+**Unity-Chan! Team**
+* Tatsuhiko Yamamura
+* Kohei Kyono
+* Nobuyuki Kobayashi
+* Hiroki Omae
 
