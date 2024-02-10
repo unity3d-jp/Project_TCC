@@ -54,24 +54,24 @@ https://github.com/adobe-fonts/source-han-sans?tab=License-1-ov-file#License-1-o
 
 TCCには、キャラクターを制御するための4つの基本的なコンポーネントがあります。
 
-1. **Brain**
+1. **[Brain](./Documentations/Componentlist_ja.md#brain)**
    - キャラクターの最終的な座標を更新するコンポーネントです。
    - Check、Effect、Controlの結果を集約し、Transformに書き込みます。
    - 移動・ベクトル計算・センサー処理を集中管理します。
 
-2. **Check**
+2. **[Check](./Documentations/Componentlist_ja.md#check)**
    - 周囲の情報を収集するセンサーコンポーネントです。
    - 地面の接地判定、頭上の接触判定、視界判定などを行います。
    - 更新時に値をキャッシュし、他コンポーネントへ処理結果を提供します。
 
-3. **Control**
+3. **[Control](./Documentations/Componentlist_ja.md#control)**
    - プレイヤーの入力に応じてキャラクターの動きを制御するコンポーネントです。
    - 移動、ジャンプ、カメラ制御などのキャラクター操作を管理します。
    - 移動方向や移動速度、ジャンプの高さなどを調整します。
 
-4. **Effect**
+4. **[Effect](./Documentations/Componentlist_ja.md#effect)**
    - キャラクターに追加の動きや影響を与えるコンポーネントです。
-   - 重力、プラットフォームとの相互作用、追加力などを扱います。
+   - 重力、プラットフォームとの相互作用、追加力(AddForce)などを扱います。
    - キャラクターの動きにバリエーションやリアリズムを加える働きをします。
 
 これらのコンポーネントを組み合わせることで、複雑なキャラクター挙動を簡単に構築し、カスタマイズすることが可能となっています。
@@ -87,11 +87,11 @@ TCCには、キャラクターを制御するための4つの基本的なコン�
 
 Project_TCCに含まれる主要なコンポーネント群について、その概要と主なコンポーネント名および機能を以下にまとめます。いずれもがゲーム制作に便利なコンポーネントとなっています。
 
-なお全てのRuntimeコンポーネントのリストは、**【プロジェクト内のドキュメントセクション（[日本語](./Documentations/Componentlist_ja.md) / [English](./Documentations/Componentlist_en.md)）】** にあります。
+なお全てのRuntimeコンポーネントのリストは、**【プロジェクト内のドキュメンテーション（[日本語](./Documentations/Componentlist_ja.md) / [English](./Documentations/Componentlist_en.md)）】** にあります。
 
 
 ---
-### 1. Brain
+### 1. [Brain](./Documentations/Componentlist_ja.md#brain)
 **概要:** 
 - TCCのControlやEffectなどからの情報を集約し、キャラクターの座標を更新するコンポーネント群です。
 
@@ -104,7 +104,7 @@ Project_TCCに含まれる主要なコンポーネント群について、その
 
 
 ---
-### 2. Check
+### 2. [Check](./Documentations/Componentlist_ja.md#check)
 **概要:** 
 - キャラクターの周辺情報を収集するセンサーコンポーネント群です。
 
@@ -113,7 +113,7 @@ Project_TCCに含まれる主要なコンポーネント群について、その
 - **Head Collision Check**: 頭上のオブジェクトとの接触判定を行います。キャラクターの高さを考慮した頭上判定を行い、接触時にイベントを発火します。
 
 ---
-### 3. Control
+### 3. [Control](./Documentations/Componentlist_ja.md#control)
 **概要:** 
 - キャラクターの移動や向きを制御するコンポーネント群です。
 
@@ -122,7 +122,7 @@ Project_TCCに含まれる主要なコンポーネント群について、その
 - **Ladder Move Control**: はしごを登る処理を実現します。Ladderコンポーネントで指定した移動範囲に対してキャラクターを移動させます。
 
 ---
-### 4. Effect
+### 4. [Effect](./Documentations/Componentlist_ja.md#effect)
 **概要:** 
 - キャラクターに追加の動きや影響を与えるコンポーネント群です。
 
