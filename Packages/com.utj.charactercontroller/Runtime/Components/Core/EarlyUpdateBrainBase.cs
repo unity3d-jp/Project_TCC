@@ -19,7 +19,7 @@ namespace Unity.TinyCharacterController.Core
         {
             foreach (var update in _updates)
             {
-                update.OnUpdate(Time.deltaTime);
+                update.OnUpdate(deltaTime);
             }
         }
     }
