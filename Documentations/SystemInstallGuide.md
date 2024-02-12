@@ -30,12 +30,12 @@ Visual Scriptingを使用する場合の設定手順です。
    - メニューから`Edit > Project Settings > Visual Scripting`に進みます。
    - `Visual Scripting`タブを開き、`Initialize Visual Scripting`ボタンを押します。
 
-   ![SysInst_Image01.png](./Documentations/Images/SysInst_Image01.png "SysInst_Image01")
+   ![SysInst_Image01.png](./Images/SysInst_Image01.png "SysInst_Image01")
 
 2. **パッケージが使用するコンポーネントを使用可能にする**  
    - `Generate Nodes`メニューから`Node Library`を開きます。
 
-   ![SysInst_Image02.png](./Documentations/Images/SysInst_Image02.png "SysInst_Image02")
+   ![SysInst_Image02.png](./Images/SysInst_Image02.png "SysInst_Image02")
 
 
    - 右端の「＋」ボタンで新規スロットを追加し、以下の各アセンブリを登録します。
@@ -44,7 +44,7 @@ Visual Scriptingを使用する場合の設定手順です。
      - `Utj.ScenarioImporter`
      - `Utj.TinyCharacterController`
 
-    ![SysInst_Image03.png](./Documentations/Images/SysInst_Image03.png "SysInst_Image03")
+    ![SysInst_Image03.png](./Images/SysInst_Image03.png "SysInst_Image03")
 
 
 ## SceneLoaderの使用
@@ -56,6 +56,6 @@ SceneLoaderを使用する前に、Addressableが初期化されている必要�
    - メニューから`Window > Asset Management > Addressable > Group`を開きます。
    - `Create Addressable Settings`ボタンを押してAddressableを有効にします。
 
-   ![SysInst_Image04.png](./Documentations/Images/SysInst_Image04.png "SysInst_Image04")
+   ![SysInst_Image04.png](./Images/SysInst_Image04.png "SysInst_Image04")
 
 ---
