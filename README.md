@@ -3,7 +3,7 @@ TCC stands for **Tiny Character Controller**. TCC provides a comprehensive solut
 
 This repository contains all packages and examples for TCC projects.
 
-Project_TCC is the last Unity-Chan! project. Enjoy yourselves!
+Project_TCC is the latest Unity-Chan! project. Enjoy yourselves!
 
 ## 2024/02/09: Information and disclaimer
 We appreciate your interest in Project_TCC.
