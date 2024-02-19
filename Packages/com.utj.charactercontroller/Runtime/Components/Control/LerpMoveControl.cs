@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Unity.Collections;
 using Unity.Mathematics;
@@ -130,8 +131,8 @@ namespace Unity.TinyCharacterController.Control
         public void Play(PropertyName id)
         {
             var index = _targets.FindIndex(c => c.Id == id);
-            if ( index == -1)
-                return;
+            if (index == -1)
+                throw new Exception($"Id[{id}] not found");
 
             _id = id;
             IsPlaying = true;
@@ -327,6 +328,14 @@ namespace Unity.TinyCharacterController.Control
             if (_id != id)
                 return;
 
+            IsPlaying = false;
+        }
+
+        /// <summary>
+        /// Cancel the currently running process.
+        /// </summary>
+        public void Cancel()
+        {
             IsPlaying = false;
         }
 

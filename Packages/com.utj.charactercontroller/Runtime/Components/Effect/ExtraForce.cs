@@ -149,6 +149,11 @@ namespace Unity.TinyCharacterController.Effect
         /// </summary>
         public Vector3 Velocity => _velocity;
 
+        public void ResetVelocity()
+        {
+            _velocity = Vector3.zero;
+        }
+
         /// <summary>
         ///     Gather all components attached own object.
         /// </summary>

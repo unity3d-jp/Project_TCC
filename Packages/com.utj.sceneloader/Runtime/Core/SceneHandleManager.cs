@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.ResourceManagement.ResourceProviders;
+using UnityEngine.SceneManagement;
 
 namespace Unity.SceneManagement
 {
@@ -44,14 +45,14 @@ namespace Unity.SceneManagement
         /// <param name="opHandle">Handle</param>
         /// <param name="scene">Scene to associate with</param>
         /// <param name="onComplete"></param>
-        public void Add(AsyncOperationHandle<SceneInstance> opHandle, AssetReferenceScene scene, Action onComplete)
+        public void Add(AsyncOperationHandle<SceneInstance> opHandle, AssetReferenceScene scene, Action<Scene> onComplete)
         {
             _operationHandles.Add(scene, opHandle);
             
-            opHandle.CompletedTypeless += _ =>
+            opHandle.Completed += result =>
             {
-                onComplete?.Invoke();
                 _operationHandles.Remove(scene);
+                onComplete?.Invoke(result.Result.Scene);
             };
         }
 

@@ -30,7 +30,8 @@ namespace Unity.SceneManagement
         public bool AddOwner(string sceneName, GameObject owner)
         {
             var id = new PropertyName(sceneName);
-            return _sceneOwners.TryAdd(id, owner);
+            var result = _sceneOwners.TryAdd(id, owner);
+            return result;
         }
 
         /// <summary>
@@ -60,7 +61,7 @@ namespace Unity.SceneManagement
             // This process is mainly executed when there is a possibility of referencing the Owner before initialization in Awake, etc.
             var loaders = Object.FindObjectsByType<SceneLoader>(
                 FindObjectsInactive.Include, FindObjectsSortMode.None);
-            var loader = System.Array.Find(loaders, c => c.Scene == scene);
+            var loader = System.Array.Find(loaders, c => c.SceneName == scene.name);
             
             return loader != null ? loader.gameObject : null;
         }

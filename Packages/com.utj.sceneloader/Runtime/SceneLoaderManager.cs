@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -11,21 +12,26 @@ namespace Unity.SceneManagement
     /// Manages SceneLoader.
     /// </summary>
     [RenamedFrom("Tcc.SceneManagement.SceneLoaderManager")]
-    public class SceneLoaderManager
+    public class SceneLoaderManager : ISceneLoaderManager
     {
-        private static readonly SceneLoaderManager Instance = new();
+        public static SceneLoaderManager Instance { get; } = new();
 
+        private readonly SceneLoaderTaskQueueManager _loaderTaskQueueManager;
         private readonly SceneLoadManager _sceneLoad ;
         private readonly SceneOwnershipManager _ownership ;
         private readonly SceneHandleManager _sceneHandle;
         private readonly SceneProgressTracker _sceneProgress;
 
+
         private SceneLoaderManager()
         {
             _sceneLoad = new SceneLoadManager();
             _ownership = new SceneOwnershipManager();
+            _loaderTaskQueueManager = new SceneLoaderTaskQueueManager();
             _sceneHandle = new SceneHandleManager();
             _sceneProgress = new SceneProgressTracker(_sceneHandle);
+
+            Application.quitting += _loaderTaskQueueManager.Dispose;
         }
         
         /// <summary>
@@ -54,37 +60,53 @@ namespace Unity.SceneManagement
         /// Loads a scene.
         /// </summary>
         /// <param name="scene">Scene asset</param>
-        /// <param name="sceneName">Scene name</param>
-        /// <param name="ownerObject">Object that will load the scene</param>
         /// <param name="priority">Priority for loading the scene</param>
         /// <param name="isActive">Whether the scene should be registered as active upon completion</param>
         /// <param name="onComplete">Callback when the loading is complete</param>
         /// <returns>True if the loading process has started</returns>
-        public static bool Load(AssetReferenceScene scene, string sceneName,
-            GameObject ownerObject, int priority, bool isActive, Action onComplete = null)
+        void ISceneLoaderManager.Load(AssetReferenceScene scene, 
+            int priority, bool isActive, Action<Scene> onComplete)
         {
-            // Returns false if the scene is already loaded or if loading fails.
-            if (Instance._ownership.AddOwner(sceneName, ownerObject) == false || 
-                Instance._sceneLoad.Load(scene, priority, isActive, out var opHandle) == false)
+            var act = _loaderTaskQueueManager.GetOrCreateSceneLoadTask(scene);
+
+            act.EnqueueAction(() =>
             {
-                return false;
-            }
-            Instance._sceneHandle.Add(opHandle, scene, onComplete);
-            return true;
+                onComplete += _=>act.ExecuteNextAction();
+
+                // Returns false if the scene is already loaded or if loading fails.
+                var opHandle = _sceneLoad.Load(scene, priority, isActive );
+                _sceneHandle.Add(opHandle, scene, onComplete);
+            });
         }
         
         /// <summary>
         /// Unloads a scene.
         /// </summary>
-        /// <param name="scene">Scene asset</param>
+        /// <param name="sceneReference">Scene asset</param>
         /// <param name="sceneName">Scene name</param>
         /// <param name="onComplete">Callback when the unloading is complete</param>
-        public static void Unload(AssetReferenceScene scene, string sceneName, Action onComplete = null)
+        void ISceneLoaderManager.Unload(AssetReferenceScene sceneReference,  string sceneName, Action onComplete)
         {
-            Instance._ownership.RemoveOwner(sceneName);
-            Instance._sceneLoad.Unload(scene, sceneName, onComplete);
+            var act = _loaderTaskQueueManager.GetOrCreateSceneLoadTask(sceneReference);
+
+            act.EnqueueAction(() =>
+            {
+                onComplete += () =>act.ExecuteNextAction();
+                _sceneLoad.Unload(sceneReference, sceneName, onComplete);
+            });
+
         }
 
+        void ISceneLoaderManager.Register(string sceneName, GameObject owner)
+        {
+            _ownership.AddOwner(sceneName, owner);
+        }
+
+        void ISceneLoaderManager.Unregister(string sceneName)
+        {
+            _ownership.RemoveOwner(sceneName);
+        }
+        
         /// <summary>
         /// Gets the owner of a scene.
         /// </summary>
@@ -98,5 +120,6 @@ namespace Unity.SceneManagement
         /// <param name="obj">GameObject within the scene called by SceneLoader</param>
         /// <returns>The object that called SceneLoader for the scene. Returns null if it does not exist.</returns>
         public static GameObject GetOwner(GameObject obj) => GetOwner(obj.scene);
+
     }
 }

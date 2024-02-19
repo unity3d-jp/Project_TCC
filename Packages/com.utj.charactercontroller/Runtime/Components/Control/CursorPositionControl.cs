@@ -41,13 +41,17 @@ namespace Unity.TinyCharacterController.Control
         [SerializeField] 
         private Vector3 _originOffset = Vector3.zero;
 
+
         /// <summary>
         /// Direction of the judgment plane.
         /// Set (0, 1, 0) for a top viewpoint or (0, 0, 1) for a side viewpoint.
         /// <see cref="PlaneAxis"/>
         /// </summary>
+        [Header("Plane settings")]
         [SerializeField] 
         private Vector3 _planeAxis = Vector3.up;
+
+        [SerializeField] private float _planeOffset;
 
         /// <summary>
         /// Rotation Priority. Face the cursor direction when it is higher than the priority of other components.
@@ -126,7 +130,7 @@ namespace Unity.TinyCharacterController.Control
 
         void IUpdateComponent.OnUpdate(float deltaTime)
         {
-            var plane = new Plane(_planeAxis, _transform.Position );
+            var plane = new Plane(_planeAxis, _transform.Position+ _planeAxis * _planeOffset );
             var ray = _characterSettings.CameraMain.ScreenPointToRay(_mousePosition);
 
             // If the cursor position does not make contact with the plane, the process is aborted.
@@ -134,7 +138,7 @@ namespace Unity.TinyCharacterController.Control
                 return;
             
             // Get cursor position
-            var contactPosition = ray.GetPoint(distance)　+ _originOffset;
+            var contactPosition = ray.GetPoint(distance) + _originOffset;
             var position = _transform.Position;
             CursorPosition = contactPosition ;
             LimitedPosition = (Vector3.Distance(position, contactPosition) > _maxDistance) ?

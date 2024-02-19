@@ -40,7 +40,7 @@ namespace Unity.TinyCharacterController.Modifier
             var point = ClosePoint(position);
             var closestStepPoint = CloseStepPoint(point);
 
-            return GetPoint(closestStepPoint);
+            return GetPosition(closestStepPoint);
         }
 
         /// <summary>
@@ -52,7 +52,7 @@ namespace Unity.TinyCharacterController.Modifier
         {
             var closestStepPoint = CloseStepPoint(point);
 
-            return GetPoint(closestStepPoint);
+            return GetPosition(closestStepPoint);
         }
 
         /// <summary>
@@ -63,7 +63,7 @@ namespace Unity.TinyCharacterController.Modifier
         public Vector3 ClosePosition(Vector3 position)
         {
             var distance = ClosePoint(position);
-            return GetPoint(distance);
+            return GetPosition(distance);
         }
 
         /// <summary>
@@ -140,19 +140,19 @@ namespace Unity.TinyCharacterController.Modifier
         /// <summary>
         /// Get the top start position.
         /// </summary>
-        public Vector3 TopStartPosition => _transform.rotation * _topStartPosition + TopPosition;
+        public Vector3 TopStartPosition => _transform.rotation * _topStartPosition + (Vector3.up * _length) + _transform.position;
 
         /// <summary>
         /// Get the bottom start position.
         /// </summary>
-        public Vector3 BottomStartPosition => _transform.rotation * _bottomStartPosition + BottomPosition;
+        public Vector3 BottomStartPosition => _transform.rotation * _bottomStartPosition + _transform.position;
 
         /// <summary>
         /// Get the position based on distance along the ladder.
         /// </summary>
         /// <param name="distance">Distance along the ladder.</param>
         /// <returns>Position on the ladder.</returns>
-        public Vector3 GetPoint(float distance)
+        public Vector3 GetPosition(float distance)
         {
             return Vector3.Lerp(BottomPosition, TopPosition, distance / Length) +
                    _transform.rotation * _characterOffset;

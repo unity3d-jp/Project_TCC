@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEditor;
+using UnityEngine.SceneManagement;
 
 namespace Unity.SceneManagement
 {
@@ -57,7 +58,8 @@ namespace Unity.SceneManagement
         private static void DrawToggle(SceneLoader loader, Rect selectionRect)
         {
             // Check if the scene associated with the loader is valid and loaded
-            var loaded = loader.Scene.IsValid() && loader.Scene.isLoaded;
+            var scene = SceneManager.GetSceneByName(loader.SceneName);
+            var loaded = scene.IsValid() && scene.isLoaded;
 
             // Position the toggle button
             var rect = new Rect(selectionRect.x + selectionRect.width - 16, selectionRect.y, 16, selectionRect.height);

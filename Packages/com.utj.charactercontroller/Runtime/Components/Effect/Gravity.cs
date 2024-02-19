@@ -107,6 +107,11 @@ namespace Unity.TinyCharacterController.Effect
         
         Vector3 IEffect.Velocity => _velocity;
 
+        public void ResetVelocity()
+        {
+            SetVelocity(Vector3.zero);
+        }
+
         private void Awake()
         {
             TryGetComponent(out _groundCheck);

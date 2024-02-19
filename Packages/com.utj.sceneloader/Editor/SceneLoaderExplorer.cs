@@ -92,8 +92,9 @@ namespace Unity.SceneManagement
                 foreach (var sceneLoader in root.GetComponentsInChildren<SceneLoader>(true))
                 {
                     _sceneLoaders.Add(new(sceneLoader, index));
-                    if (sceneLoader.Scene.isLoaded)
-                        GatherSceneLoader(sceneLoader.Scene, index + 1);
+                    var sceneLoaderScene = SceneManager.GetSceneByName(sceneLoader.SceneName);
+                    if (sceneLoaderScene.isLoaded)
+                        GatherSceneLoader(sceneLoaderScene, index + 1);
                 }
             }
         }
@@ -122,8 +123,9 @@ namespace Unity.SceneManagement
         private void RenderSceneLoader((SceneLoader, int) loader, Queue<SceneLoader> closeRequest,
             Queue<SceneLoader> openRequest)
         {
-            var isLoaded = loader.Item1.Scene.isLoaded;
-            var isSubScene = loader.Item1.Scene.isSubScene;
+            var scene = SceneManager.GetSceneByName(loader.Item1.SceneName);
+            var isLoaded = scene.isLoaded;
+            var isSubScene = scene.isSubScene;
 
             using (new GUILayout.HorizontalScope())
             {

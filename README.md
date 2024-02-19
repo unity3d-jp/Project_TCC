@@ -1,4 +1,4 @@
-# Project_TCC v.1.0.0
+# Project_TCC v.1.0.1
 TCC stands for **Tiny Character Controller**. TCC provides a comprehensive solution for creating your own game.
 
 This repository contains all packages and examples for TCC projects.
@@ -15,6 +15,7 @@ Therefore, we are unable to monitor bug reports, accept feature requests, or rev
 However, we recognize that some users may wish to continue utilizing and enhancing Project_TCC. In that case, we recommend that you fork the repository. This will allow you to make changes and enhancements as you see fit.
 
 ## Release Information
+* 2024/02/19 : Project_TCC v.1.0.1 : Bug Fixed version.
 * 2024/02/09 : Project_TCC v.1.0.0 : First Release.
 
 

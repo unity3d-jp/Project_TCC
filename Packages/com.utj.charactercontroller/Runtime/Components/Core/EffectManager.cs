@@ -29,5 +29,11 @@ namespace Unity.TinyCharacterController.Core
             foreach (var velocity in velocities)
                 sum += velocity.Velocity;
         }
+
+        public void ResetVelocity()
+        {
+            foreach( var effect in _components)
+                effect.ResetVelocity();
+        }
     }
 }

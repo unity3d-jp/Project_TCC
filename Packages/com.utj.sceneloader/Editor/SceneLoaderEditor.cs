@@ -3,6 +3,7 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEditor.UIElements;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 namespace Unity.SceneManagement
@@ -59,12 +60,13 @@ namespace Unity.SceneManagement
 
         private void UpdateUIVisual()
         {
-            var isLoaded = Component.Scene.isLoaded;
+            var scene = SceneManager.GetSceneByName(Component.SceneName);
+            var isLoaded = scene.isLoaded;
             var hasValue = Component.SceneAsset != null;
 
             if (isLoaded)
             {
-                var isSubScene = Component.Scene.isSubScene;
+                var isSubScene = scene.isSubScene;
                 // _showButton.SetEnabled(!isSubScene);
                 _editButton.SetEnabled(isSubScene);
             }
@@ -85,10 +87,12 @@ namespace Unity.SceneManagement
 
             _closeButton.clicked += () =>
             {
+
                 if (EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())
                 {
+                    var scene = SceneManager.GetSceneByName(Component.SceneName);
                     EditorSceneLoaderManager.Close(Component);
-                    EditorSceneManager.SaveScene(Component.Scene);
+                    EditorSceneManager.SaveScene(scene);
                     UpdateUIVisual();
                 }
             };

@@ -44,6 +44,8 @@ namespace Unity.TinyCharacterController.Core
             var rotation = direction != Vector3.zero 
                 ? Quaternion.LookRotation(direction) : CachedTransform.rotation;
             _warpManager.SetPositionAndRotation(position, rotation);
+            Position = position;
+            Rotation = rotation;
         }
 
         /// <summary>
@@ -51,7 +53,12 @@ namespace Unity.TinyCharacterController.Core
         /// </summary>
         /// <param name="position">New position</param>
         /// <param name="rotation">new rotation.</param>
-        public void Warp(Vector3 position, Quaternion rotation) => _warpManager.SetPositionAndRotation(position, rotation);
+        public void Warp(Vector3 position, Quaternion rotation)
+        {
+            _warpManager.SetPositionAndRotation(position, rotation);
+            Position = position;
+            Rotation = rotation;
+        }
 
         /// <summary>
         /// Update position.
@@ -59,7 +66,11 @@ namespace Unity.TinyCharacterController.Core
         /// </summary>
         /// <param name="position">New position.</param>
         [RenamedFrom("SetPosition")]
-        public void Warp(Vector3 position) => _warpManager.SetPosition(position);
+        public void Warp(Vector3 position)
+        {
+            _warpManager.SetPosition(position);
+            Position = position;
+        }
 
         /// <summary>
         /// Update rotation.
@@ -67,14 +78,22 @@ namespace Unity.TinyCharacterController.Core
         /// </summary>
         /// <param name="rotation">new rotation.</param>
         [RenamedFrom("SetRotation")]
-        public void Warp(Quaternion rotation) => _warpManager.SetRotation(rotation);
+        public void Warp(Quaternion rotation)
+        {
+            _warpManager.SetRotation(rotation);
+            Rotation = rotation;
+        }
 
         /// <summary>
         /// Warp to take into account the movement of the midpoint.
         /// Warp behavior depends on Brain.
         /// </summary>
         /// <param name="position">New coordinates</param>
-        public void Move(Vector3 position) => _warpManager.Move(position);
+        public void Move(Vector3 position)
+        {
+            _warpManager.Move(position);
+            Position = position;
+        } 
 
         protected void Initialize()
         {
@@ -169,6 +188,8 @@ namespace Unity.TinyCharacterController.Core
                     MovePosition(_warpManager.Position);
                 else
                     SetPositionDirectly(_warpManager.Position);
+
+                _effectManager.ResetVelocity();
             }else {
                 ApplyPosition(TotalVelocity, deltaTime);
             }

@@ -11,5 +11,7 @@ namespace Unity.TinyCharacterController.Interfaces.Core
         /// The acceleration to be added.
         /// </summary>
         Vector3 Velocity { get; }
+
+        void ResetVelocity();
     }
 }

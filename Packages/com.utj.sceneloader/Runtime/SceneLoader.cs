@@ -1,3 +1,4 @@
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
@@ -51,6 +52,19 @@ namespace Unity.SceneManagement
         [HideInInspector] [SerializeField] 
         private string _sceneName;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        public string SceneName => _sceneName;
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        [RenamedFrom("Scene")]
+        public Scene LoadedScene { get; private set; }
+
+        private ISceneLoaderManager Manager => SceneLoaderManager.Instance;
+
 #if UNITY_EDITOR
 
         public State state = State.NotLoad;
@@ -81,7 +95,7 @@ namespace Unity.SceneManagement
         /// <summary>
         /// Scene loading handle.
         /// </summary>
-        public AsyncOperationHandle<SceneInstance> Handle =>
+        public AsyncOperationHandle<SceneInstance> LoadHandle =>
             SceneLoaderManager.GetHandle(_scene, out var handle) ? handle : default;
 
         /// <summary>
@@ -111,11 +125,6 @@ namespace Unity.SceneManagement
             }
         }
 
-        /// <summary>
-        /// Current scene.
-        /// </summary>
-        public Scene Scene =>  SceneManager.GetSceneByName(_sceneName) ;
-
 
         /// <summary>
         /// Get the owner added by SceneLoader.
@@ -131,16 +140,28 @@ namespace Unity.SceneManagement
         /// <returns>The GameObject owner.</returns>
         public static GameObject Owner(GameObject loadedGameObject) => Owner(loadedGameObject.scene);
 
+        private void Awake()
+        {
+            Manager.Register(_sceneName, gameObject);
+        }
+
+        private void OnDestroy()
+        {
+            Manager.Unregister(_sceneName);
+        }
+
         private void OnEnable()
         {
+            
 #if UNITY_EDITOR
             // If scene loading is already completed, immediately invoke OnComplete
-            if (Scene.IsValid() || Scene.isLoaded)
+            var scene = SceneManager.GetSceneByName(_sceneName);
+            if ( scene.isLoaded)
             {
                 if (_isActive)
-                    Invoke(nameof(OnCompleteLoad), 0.1f);
+                    Invoke(nameof(DelayCallOnCompleteLoad), 0.1f);
                 else
-                    OnCompleteLoad();
+                    OnCompleteLoad(scene);
             }
             else
             {
@@ -150,6 +171,12 @@ namespace Unity.SceneManagement
 #else
             LoadScene();
 #endif
+        }
+
+        private void DelayCallOnCompleteLoad()
+        {
+            var scene = SceneManager.GetSceneByName(_sceneName);
+            OnCompleteLoad(scene);
         }
 
         private void OnDisable()
@@ -162,14 +189,8 @@ namespace Unity.SceneManagement
         /// </summary>
         private void LoadScene()
         {
-            if (SceneLoaderManager.Load(_scene, _sceneName, gameObject, _priority, _isActive, OnCompleteLoad))
-            {
-                InProgress = true;
-            }
-            else
-            {
-                Debug.LogError($"{_sceneName} load failed");
-            }
+            Manager.Load(_scene, _priority, _isActive, OnCompleteLoad);
+            InProgress = true;
         }
         
         /// <summary>
@@ -177,19 +198,23 @@ namespace Unity.SceneManagement
         /// </summary>
         private void UnloadScene()
         {
-            SceneLoaderManager.Unload(_scene, _sceneName, () =>
-            {
-                OnUnloaded?.Invoke();
-                IsLoaded = false;
-            });
+            Manager.Unload(_scene, _sceneName, OnCompleteUnload);
         }
 
-        private void OnCompleteLoad()
+
+        private void OnCompleteLoad(Scene scene)
         {
+            LoadedScene = scene;
             InProgress = false;
             IsLoaded = true;
-            OnLoaded?.Invoke(Scene);
+            OnLoaded?.Invoke(scene);
         }
 
+        private void OnCompleteUnload()
+        {
+            IsLoaded = false;
+            OnUnloaded?.Invoke();
+            LoadedScene = default;
+        }
     }
 }

@@ -176,14 +176,15 @@ namespace Unity.SceneManagement
         public static void Close(SceneLoader subSceneLoader)
         {
             // Show a dialog to prompt for saving the scene
-            if (EditorSceneManager.SaveModifiedScenesIfUserWantsTo(new Scene[] { subSceneLoader.Scene }) == false)
-                return;
-
             // Get the scene name and close the loaded scene
             using var subSceneSo = new SerializedObject(subSceneLoader);
             using var sceneName = subSceneSo.FindProperty("_sceneName");
-
             var subSceneName = sceneName.stringValue;
+
+            if (EditorSceneManager.SaveModifiedScenesIfUserWantsTo(new Scene[] { SceneManager.GetSceneByName(subSceneName) }) == false)
+                return;
+
+
             var scene = SceneManager.GetSceneByName(subSceneName);
 
             if (scene.IsValid() && scene.isLoaded)

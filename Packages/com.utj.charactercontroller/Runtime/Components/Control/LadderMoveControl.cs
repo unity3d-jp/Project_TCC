@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using Unity.TinyCharacterController.Interfaces.Components;
 using Unity.TinyCharacterController.Interfaces.Core;
 using Unity.TinyCharacterController.Modifier;
@@ -27,9 +25,9 @@ namespace Unity.TinyCharacterController.Control
     [AddComponentMenu(MenuList.MenuControl + nameof(LadderMoveControl))]
     [RenamedFrom("TinyCharacterController.Control.LadderMoveControl")]
     [RenamedFrom("TinyCharacterController.LadderMoveControl")]
-    public class LadderMoveControl : MonoBehaviour, 
-        ITurn, 
-        IUpdateComponent, 
+    public class LadderMoveControl : MonoBehaviour,
+        ITurn,
+        IUpdateComponent,
         IMove,
         IPriorityLifecycle<IMove>
     {
@@ -41,7 +39,7 @@ namespace Unity.TinyCharacterController.Control
         /// <summary>
         /// Time to reach the next step
         /// </summary>
-        public float StepTime;
+        public float StepTime = 0.01f;
 
         /// <summary>
         /// Step movement curve
@@ -52,16 +50,23 @@ namespace Unity.TinyCharacterController.Control
         /// Event when the character arrives at the start or end of the Ladder
         /// </summary>
         [SerializeField] private UnityEvent _onComplete;
-        
+
+        [SerializeField] private UnityEvent _onCompleteStep;
+
+        public UnityEvent OnComplete => _onComplete;
+
+        public UnityEvent OnCompleteStep => _onCompleteStep;
+
         private float _yawAngle;
         private ITransform _transform;
         private IWarp _warp;
         private Vector3 _velocity;
-        private float _current;
-        private float _nextAmount;
+        private float _currentPoint;
+        private float _nextPoint;
         private float _timeAmount;
-        private IBrain _brain;
         private int _inputDirection;
+        private IBrain _brain;
+        private bool _invokedCompleteStep;
 
         /// <summary>
         /// Grab the Ladder.
@@ -69,14 +74,19 @@ namespace Unity.TinyCharacterController.Control
         /// <param name="ladder">Ladder to be grabbed.</param>
         public void GrabLadder([AllowsNull] Ladder ladder)
         {
-            IsComplete = false;
             CurrentLadder = ladder;
+
+            // reset values.
+            IsComplete = false;
             Direction = 0;
-            _current = CurrentLadder.ClosePoint(transform.position);
-            _nextAmount = _current;
-            _inputDirection = 0;
             _timeAmount = 0;
+            _inputDirection = 0;
+
+            // set turn direction.
             _yawAngle = CurrentLadder.transform.eulerAngles.y;
+            // update current position.
+            _currentPoint = _nextPoint = CurrentLadder.ClosePoint(_transform.Position);
+            _warp.Move(CurrentLadder.GetPosition(_currentPoint));
         }
 
         /// <summary>
@@ -91,7 +101,7 @@ namespace Unity.TinyCharacterController.Control
         /// Reaching the end of the Ladder path.
         /// </summary>
         public bool IsComplete { get; private set; }
-        
+
         /// <summary>
         /// Complete move step.
         /// </summary>
@@ -115,21 +125,20 @@ namespace Unity.TinyCharacterController.Control
         /// <param name="direction"></param>
         public void Move(float direction)
         {
-            if (CurrentLadder == null)
-                return;
-
             _inputDirection = Mathf.RoundToInt(direction);
-            // var stepSize = _ladder.GetStepSize();
-            // var offset = Direction * stepSize;
-            // var closePoint = _ladder.CloseStepPoint(_transform.position) + offset;
         }
-        
+
+        private void OnValidate()
+        {
+            StepTime = Mathf.Max(0.01f, StepTime);
+        }
+
         /// <summary>
         /// Currently connected Ladder
         /// </summary>
         public Ladder CurrentLadder { get; private set; }
-        
-        int IPriority<IMove>.Priority => CurrentLadder != null ? Priority : 0;
+
+        int IPriority<IMove>.Priority => (CurrentLadder != null) ? Priority : 0;
         Vector3 IMove.MoveVelocity => _velocity;
         int IPriority<ITurn>.Priority => CurrentLadder != null ? Priority : 0;
         int ITurn.TurnSpeed => -1;
@@ -150,54 +159,58 @@ namespace Unity.TinyCharacterController.Control
 
             Gizmos.color = IsCompleteStep ? Color.red : Color.green;
             var position = CurrentLadder.CloseStepPosition(transform.position);
-            var next = CurrentLadder.CloseStepPosition(_nextAmount);
-            // Gizmos.DrawWireCube(position, Vector3.one * 0.4f);
-            // Gizmos.DrawWireCube(next, Vector3.one * 0.4f);
-            var delta =  StepTime - _timeAmount;
-            var targetPosition = CurrentLadder.GetPoint(Mathf.Lerp(_current, _nextAmount, delta));
+            var next = CurrentLadder.CloseStepPosition(_nextPoint);
+            Gizmos.DrawWireCube(position, Vector3.one * 0.4f);
+            Gizmos.DrawWireCube(next, Vector3.one * 0.4f);
+        }
 
+        private float CalculateNextPoint(float direction)
+        {
+            var stepSize = CurrentLadder.GetStepSize();
+            return CurrentLadder.CloseStepPoint(_currentPoint + Mathf.Round(direction) * stepSize);
         }
 
         int IUpdateComponent.Order => Order.Control;
-        
+
         /// <summary>
         /// Adjust the position of the character.
         /// </summary>
         [RenamedFrom("LocationCorrection")]
-        public void AdjustCharacterPosition()
+        public void AdjustPosition()
         {
-            var current = CurrentLadder.ClosePoint(_transform.Position);
             _timeAmount = 0;
-            _current = current;
-            _nextAmount = CurrentLadder.CloseStepPoint(current );
+            _nextPoint = _currentPoint = CurrentLadder.ClosePoint(_transform.Position);
+
+            _warp.Move(CurrentLadder.GetPosition(_nextPoint));
         }
-        
+
+        public void AdjustStepPosition()
+        {
+            _timeAmount = 0;
+            _currentPoint = CurrentLadder.ClosePoint(_transform.Position);
+            _nextPoint = CalculateNextPoint(_inputDirection);
+
+            _warp.Move(CurrentLadder.GetPosition(_currentPoint));
+        }
+
         void IUpdateComponent.OnUpdate(float deltaTime)
         {
             if (CurrentLadder == null)
                 return;
-            
-            // var closePoint = _ladder.ClosePoint(position);
-            //
-            // var closePosition = _ladder.CloseStepPosition(closePoint);
-            // var line = closePosition - position;
-            // _velocity = line / (deltaTime * Speed);
 
-            var current = CurrentLadder.ClosePoint(transform.position);
+            var currentPoint = CurrentLadder.ClosePoint(_transform.Position);
 
-            // IsComplete = current + Direction * Time.deltaTime < 0f || 
-            //              current + Direction  * Time.deltaTime > CurrentLadder.Length ;
-
-            
-            if (current + Direction * Time.deltaTime < 0f  || 
-                current + Direction  * Time.deltaTime > CurrentLadder.Length - CurrentLadder.GetStepSize())
+            // Adjust the coordinates as the target point has been reached
+            IsComplete = currentPoint + _brain.ControlVelocity.y * Time.deltaTime < 0f ||
+                         currentPoint + _brain.ControlVelocity.y * Time.deltaTime >
+                         CurrentLadder.Length - CurrentLadder.GetStepSize();
+            if (IsComplete)
             {
-                IsComplete = true;
-                if( current > CurrentLadder.Length * 0.5f)
+                if (currentPoint > CurrentLadder.Length * 0.5f)
                     _warp.Warp(CurrentLadder.TopStartPosition, CurrentLadder.transform.forward);
                 else
                     _warp.Warp(CurrentLadder.BottomStartPosition, CurrentLadder.transform.forward);
-                
+
                 _onComplete.Invoke();
                 ReleaseLadder();
             }
@@ -205,7 +218,8 @@ namespace Unity.TinyCharacterController.Control
 
         void IPriorityLifecycle<IMove>.OnAcquireHighestPriority()
         {
-            AdjustCharacterPosition();
+            AdjustStepPosition();
+            _timeAmount = 0;
         }
 
         void IPriorityLifecycle<IMove>.OnLoseHighestPriority()
@@ -214,27 +228,54 @@ namespace Unity.TinyCharacterController.Control
 
         void IPriorityLifecycle<IMove>.OnUpdateWithHighestPriority(float deltaTime)
         {
-            _timeAmount += deltaTime;
-            var delta =  StepTime - _timeAmount;
-            var position = _transform.Position;
+            // Check if the next step has been reached in terms of time or distance
 
-            IsCompleteStep =  delta < 0 || Math.Abs(_current - _nextAmount) < 0.01f;
-            
+            _timeAmount += deltaTime;
+            IsCompleteStep = StepTime - _timeAmount < 0 ||
+                             Math.Abs(_currentPoint - _nextPoint) < 0.01f;
+
+            // Since the priority is elevated, movement is handled by LadderMoveControl.
+            // Movement with Animator, etc., doesn't have higher priority.
+
             if (IsCompleteStep)
             {
+                // Adjustment of position as the step movement is complete
                 Direction = _inputDirection;
-                var stepSize = CurrentLadder.GetStepSize();
-                _warp.Warp(CurrentLadder.CloseStepPosition(_nextAmount), CurrentLadder.transform.forward);
                 _timeAmount = 0;
-                _current = CurrentLadder.CloseStepPoint(position);
-                _nextAmount = CurrentLadder.CloseStepPoint(_current + Mathf.Round(Direction) * stepSize);
 
-            }else
+                _warp.Move(CurrentLadder.CloseStepPosition(_nextPoint));
+
+                if (_invokedCompleteStep == false)
+                {
+                    _invokedCompleteStep = true;
+                    _onCompleteStep.Invoke();
+                }
+
+                // Calculate the next vector from the destination
+                _currentPoint = _nextPoint;
+
+                // Calculate the destination if there is input
+                if (Mathf.Abs(_inputDirection) > 0)
+                {
+                    _invokedCompleteStep = false;
+                    _nextPoint = CalculateNextPoint(_inputDirection);
+                }
+            }
+            else
             {
-                var percent = _curve.Evaluate(delta / StepTime) ;
-                 var targetPosition = CurrentLadder.GetPoint(Mathf.Lerp(_nextAmount, _current, percent));
-                 _velocity = (targetPosition - position) / deltaTime;
-                 _warp.Warp(targetPosition, CurrentLadder.transform.forward);
+                // During step movement
+
+                // Calculate the movement amount based on the difference between elapsed time and movement time
+                var delta = StepTime - _timeAmount;
+                var percent = _curve.Evaluate(delta / StepTime);
+                // Calculate the arrival point from the current position and destination
+                var targetPosition = CurrentLadder.GetPosition(Mathf.Lerp(_nextPoint, _currentPoint, percent));
+
+                // Calculate the movement vector based on the comparison between the arrival point and current position
+                _velocity = (targetPosition - _transform.Position) / deltaTime;
+
+                // Warp to the arrival point
+                _warp.Move(targetPosition);
             }
         }
     }

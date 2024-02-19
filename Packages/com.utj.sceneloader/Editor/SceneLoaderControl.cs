@@ -128,7 +128,7 @@ namespace Unity.SceneManagement
             for (var i = 0; i < SceneManager.sceneCount; i++)
             {
                 var scene = SceneManager.GetSceneAt(i);
-                var loader = Array.Find(loaders, c => c.Scene == scene);
+                var loader = Array.Find(loaders, c => c.SceneName == scene.name);
                 if (loader == null)
                     continue;
 
