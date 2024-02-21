@@ -33,16 +33,12 @@ namespace Unity.TinyCharacterController.Core
                 return;
 
             var gameController = GetInstance(timing);
+
+            if (system is IEarlyUpdate update)
+                gameController._updates.Add(update);
             
-            switch (system)
-            {
-                case IEarlyUpdate update:
-                    gameController._updates.Add(update);
-                    break;
-                case IPostUpdate lateUpdate:
-                    gameController._lateUpdates.Add(lateUpdate);
-                    break;
-            }
+            if (system is IPostUpdate lateUpdate) 
+                gameController._lateUpdates.Add(lateUpdate);
         }
         
         /// <summary>
