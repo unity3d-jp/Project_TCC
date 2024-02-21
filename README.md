@@ -158,12 +158,19 @@ Project_TCCに含まれる主要なコンポーネント群について、その
 ---
 これらのコンポーネント群を組み合わせることで、複雑なキャラクターの挙動や、様々なゲームシステムを柔軟に実装することが可能になります。TCCは、これらの基本コンポーネントをベースとして、開発者が独自の挙動や機能を追加しやすい構造になっている点も大きな特徴です。
 
----
+
+
 ## Project_TCCに含まれるシステムを、ご自身のUnityプロジェクトにインストールしたい場合
 
-[Project_TCCシステムインストールガイド](./Documentations/SystemInstallGuide.md) に従って、インストールすることができます。
+[Project_TCCシステムインストールガイド](./Documentations/SystemInstallGuide.md) に従って、インストールすることができます。　
 
----
+
+
+## 独自のコントロールを作成したい場合
+
+[独自のコントロールを作成するには？](./Documentations/Create_your_own_ctrl.md) をご確認ください。
+
+
 ## チュートリアル
 - [My First TCC チュートリアル](./Documentations/My_First_TCC.md) 
 - [SceneLoader チュートリアル](./Documentations/SceneLoader_Tutorial.md) 
