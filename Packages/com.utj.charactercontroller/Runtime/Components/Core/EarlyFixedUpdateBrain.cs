@@ -9,9 +9,6 @@ namespace Unity.TinyCharacterController.Core
     [AddComponentMenu("")]
     public class EarlyFixedUpdateBrain : EarlyUpdateBrainBase
     {
-        private void FixedUpdate()
-        {
-            OnUpdate(Time.fixedDeltaTime);
-        }
+        private void FixedUpdate() => OnUpdate();
     }
 }

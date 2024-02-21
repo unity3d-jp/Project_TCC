@@ -37,7 +37,7 @@ namespace Unity.TinyCharacterController.Brain
 
         private void Update()
         {
-            UpdateBrain(Time.deltaTime);
+            UpdateBrain();
         }
 
         public override UpdateTiming Timing => UpdateTiming.Update;

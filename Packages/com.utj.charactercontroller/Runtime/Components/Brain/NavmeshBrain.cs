@@ -57,7 +57,7 @@ namespace Unity.TinyCharacterController.Brain
 
         private void Update()
         {
-            UpdateBrain(Time.deltaTime);
+            UpdateBrain();
         }
 
         protected override void ApplyPosition(in Vector3 totalVelocity, float deltaTime)

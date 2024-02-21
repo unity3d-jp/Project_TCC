@@ -15,11 +15,14 @@ namespace Unity.TinyCharacterController.Core
             _updates.Sort((a,b) => a.Order - b.Order);
         }
 
-        protected void OnUpdate(float deltaTime)
+        protected void OnUpdate()
         {
+            // If executed at the timing of FixedUpdate, deltaTime returns the value of FixedUpdate.
+            var deltaTime = Time.deltaTime;
+            
             foreach (var update in _updates)
             {
-                update.OnUpdate(Time.deltaTime);
+                update.OnUpdate(deltaTime);
             }
         }
     }

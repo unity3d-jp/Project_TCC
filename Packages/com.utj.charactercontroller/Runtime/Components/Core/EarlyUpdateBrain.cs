@@ -11,6 +11,6 @@ namespace Unity.TinyCharacterController.Core
     [AddComponentMenu("")]
     public class EarlyUpdateBrain : EarlyUpdateBrainBase
     {
-        private void Update() => OnUpdate(Time.deltaTime);
+        private void Update() => OnUpdate();
     }
 }
