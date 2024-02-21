@@ -162,7 +162,7 @@ namespace Unity.TinyCharacterController.Brain
 
         private void FixedUpdate()
         {
-            UpdateBrain(Time.fixedDeltaTime);
+            UpdateBrain();
         }
 
         private void Update()

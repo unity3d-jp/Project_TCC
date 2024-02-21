@@ -161,11 +161,13 @@ namespace Unity.TinyCharacterController.Core
         /// <summary>
         /// Update information in Brain.<br/>
         /// </summary>
-        /// <param name="deltaTime">delta time</param>
-        protected void UpdateBrain(float deltaTime)
+        protected void UpdateBrain()
         {
             if (HasCameraCheck() == false)
                 return;
+
+            // If executed at the timing of FixedUpdate, deltaTime returns the value of FixedUpdate.
+            var deltaTime = Time.deltaTime;
 
             // Update coordinates
             _updateComponentManager.Process(deltaTime);
