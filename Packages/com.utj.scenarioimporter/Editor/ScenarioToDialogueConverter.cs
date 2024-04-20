@@ -38,9 +38,11 @@ namespace Unity.ScenarioImporter
         /// <returns>Normalized text data with consistent newline characters.</returns>
         private static string NormalizeNewLines(string textData)
         {
-            textData = textData.Replace("\r\n", Environment.NewLine);
-            textData = textData.Replace("\r", Environment.NewLine);
-            textData = textData.Replace("\n", Environment.NewLine); // Probably unnecessary
+            // First replace \r\n (Windows) with \n (Unix), and then \r (Mac) with \n
+            textData = textData.Replace("\r\n", "\n");
+            textData = textData.Replace("\r", "\n");
+            // Now replace all \n (Unix) with Environment.NewLine (Windows if on Windows)
+            textData = textData.Replace("\n", Environment.NewLine);
             return textData;
         }
 
