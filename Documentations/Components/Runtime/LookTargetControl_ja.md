@@ -1,5 +1,3 @@
-﻿了解しました。指定された修正を行い、「LookTargetControl」コードの分析を再度行います。
-
 # LookTargetControl
 
 #### **Namespace**: Unity.TinyCharacterController.Control
